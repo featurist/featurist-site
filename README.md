@@ -16,4 +16,4 @@ Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live a
 - `npm run svg` - Build SVGs into icon sprite with [svg-sprite](https://github.com/jkphl/svg-sprite)
 - `npm run lint` - Lint JS with [Standard](https://github.com/feross/standard), CSS with [stylelint](https://stylelint.io/)/[stylelint-config-suitcss](https://github.com/suitcss/stylelint-config-suitcss)
 - `npm run build` - Build `/dist` directory
-- `npm run deploy` - Build `/dist` directory, push to `master` with [gh-pages](https://github.com/tschaub/gh-pages)
+- `npm run deploy` - Build `/dist` directory, push to `gh-pages` branch with [gh-pages](https://github.com/tschaub/gh-pages)

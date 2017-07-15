@@ -16,7 +16,7 @@
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
     "images": "imagemin-power dist/**/*.{jpg,png,gif,svg} --out-dir=. -r",
     "start": "harp server src --port ${PORT:-3000}",
-    "deploy": "npm run build && gh-pages -d dist -b master"
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
   },
   "repository": "featurist:featurist.github.io",
   "dependencies": {
