@@ -1,0 +1,15 @@
+{
+  "index": {
+    "title": "sworm",
+    "tagline": "Code - Featurist",
+    "description": "write only ORM - with the full power of SQL",
+    "openGraph": {
+      "title": "Project: sworm",
+      "description": "A write only ORM."
+    },
+    "cta": {
+      "label": "View on GitHub >",
+      "url": "https://github.com/featurist/sworm"
+    }
+  }
+}

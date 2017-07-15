@@ -1,0 +1,27 @@
+<div class="Jumbotron Jumbotron--shadeUp Jumbotron--light u-textCenter">
+  <div class="Container">
+    <h1 class="Jumbotron-title">Learn</h1>
+    <p class="u-textLead">
+      <%= description %>
+    </p>
+  </div>
+</div>
+
+<div class="Container">
+  <ul class="MediaHeroList">
+    <% for (var slug in public.learn._data.events) {
+      var event = public.learn._data.events[slug]
+    %>
+      <li class="MediaHeroList-item">
+        <div class="MediaHero">
+          <a href="<%= slug %>/">
+            <h3 class="MediaHero-title"><%= event.title %></h3>
+            <p class="MediaHero-description">
+              <time datetime="<%= event.date %>"><%= new Date(event.date).toDateString() %></time>
+            </p>
+          </a>
+        </div>
+      </li>
+    <% } %>
+  </ul>
+</div>

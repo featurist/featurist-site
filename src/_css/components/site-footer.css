@@ -1,0 +1,73 @@
+/** @define SiteFooter; weak */
+
+.SiteFooter {
+  background-color: var(--color-brand-gray-dark);
+  color: color(#fff shade(20%));
+  flex: none;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 40px 20px 30px;
+  text-align: center;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  @media (--sm-viewport-min) {
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+    .Container {
+      position: relative;
+    }
+
+    .SocialLinks {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+.SiteFooter-panel {
+
+  @media (--sm-viewport-min) {
+    width: 50%;
+
+    &:first-of-type {
+      float: left;
+      text-align: left;
+    }
+
+    &:last-of-type {
+      float: right;
+      text-align: right;
+    }
+  }
+}
+
+.SiteFooter-address {
+  margin-bottom: 20px;
+
+  .Icon {
+    color: color(var(--color-brand-primary) a(30%));
+    margin-bottom: 15px;
+    size: 77px 71px;
+  }
+
+  @media (--sm-viewport-min) {
+    margin-bottom: 0;
+  }
+}
+
+.SiteFooter-slogan {
+  display: none;
+
+  @media (--md-viewport-min) {
+    color: var(--color-brand-gray-light);
+    display: block;
+    font-size: var(--font-size-base);
+    font-style: italic;
+    padding-top: 80px;
+  }
+}

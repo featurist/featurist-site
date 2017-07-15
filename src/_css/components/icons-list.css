@@ -1,0 +1,54 @@
+/** @define IconsList; weak */
+
+.IconsList {
+
+  @media (--sm-viewport-min) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (--lg-viewport-min) {
+    padding-left: 10%;
+    padding-right: @padding-left;
+  }
+}
+
+.IconsList-item {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+
+    &:hover {
+
+      .IconsList-icon {
+        color: var(--color-brand-secondary);
+      }
+    }
+  }
+
+  @media (--sm-viewport-min) {
+    margin-bottom: 0;
+  }
+}
+
+.IconsList-icon {
+  size: 70px;
+  transition: color var(--transition-duration) ease-in-out;
+
+  @media (--md-viewport-min) {
+    margin-bottom: 10px;
+    size: 100px;
+  }
+
+  @media (--xl-viewport-min) {
+    size: 120px;
+  }
+}
+
+.IconsList-label {}

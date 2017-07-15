@@ -1,0 +1,31 @@
+/** @define ProfileHeroList */
+
+.ProfileHeroList {
+  margin-bottom: 50px;
+
+  @media (--xs-viewport-min) {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+
+  @media (--md-viewport-min) {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: @padding-left;
+  }
+
+  @media (--lg-viewport-min) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.ProfileHeroList-item {
+  margin-bottom: 20px;
+
+  @media (--xs-viewport-min) {
+    margin-bottom: 0;
+  }
+}

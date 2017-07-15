@@ -1,0 +1,42 @@
+{
+  "index": {
+    "title": "Scribeasy",
+    "tagline": "Work - Featurist",
+    "description": "Childrens Creative Writing App",
+    "openGraph": {
+      "title": "Scribeasy",
+      "description": "Featurist developed a comprehensive creative writing app for children that helps with inspiration and enables broader ideas.",
+      "image": "/images/client-logos/scribeasy.png"
+    },
+    "cta": {
+      "label": "View on App Store >",
+      "url": "https://itunes.apple.com/gb/app/scribeasy/id975133092"
+    },
+    "gallery": [
+      {
+        "src": "classroom.jpg",
+        "alt": "Children using the Scribeasy app in a classroom environment",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "scribeasy-logo.png",
+        "alt": "Scribeasy logo",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "hand-drawing.jpg",
+        "alt": "Child working with the Scribeasy app",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "ipad-table.jpg",
+        "alt": "iPad and notebook on a table",
+        "width": "900",
+        "height": "800"
+      }
+    ]
+  }
+}

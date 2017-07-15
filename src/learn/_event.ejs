@@ -1,0 +1,35 @@
+<div class="Jumbotron Jumbotron--dark u-textCenter">
+  <div class="Container">
+    <h1 class="Jumbotron-title"><%= title %></h1>
+    <p class="u-textLead"><%= description %></p>
+    <% if (locals.cta) { %>
+      <p>
+        <a href="<%= cta.url %>" class="Button Button--primary<% if (locals.cta.url.indexOf('#') != -1) { %> js-page-jump<% } %>"><%= cta.label %></a>
+      </p>
+    <% } %>
+  </div>
+</div>
+
+<article class="BodyText u-cf">
+  <div class="Container">
+    <%- yield %>
+    <% if (typeof mailChimpListId !== 'undefined') { %>
+      <div class="Widget" id="register">
+        <h3 class="u-textCenter">Register for this course</h3>
+        <%- partial("../_partials/register-form") %>
+      </div>
+    <% } %>
+  </div>
+</article>
+
+<div class="Jumbotron Jumbotron--shadeUp Jumbotron--light Jumbotron--narrow">
+  <div class="Container u-textCenter" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+    <% if (typeof mailChimpListId !== 'undefined') { %>
+      <h3 class="Jumbotron-title Jumbotron-title--inline">Want to build something together?</h3>
+      <a href="/contact/" class="Button Button--primary">Contact us</a>
+    <% } else { %>
+      <h3 class="Jumbotron-title">Receive our occassional newsletter</h3>
+      <%- partial("../_partials/newsletter-form") %>
+    <% } %>
+  </div>
+</div>

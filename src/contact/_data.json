@@ -1,0 +1,12 @@
+{
+  "index": {
+    "title": "Contact Us",
+    "tagline": "Featurist",
+    "description": "Get in touch to discuss your project.",
+    "openGraph": {
+      "title": "Contact Featurist Today",
+      "description": "Get in touch to discuss how we can help your company.",
+      "image": "/images/tile.png"
+    }
+  }
+}

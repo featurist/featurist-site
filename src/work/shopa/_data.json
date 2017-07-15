@@ -1,0 +1,30 @@
+{
+  "index": {
+    "title": "Shopa",
+    "tagline": "Work - Featurist",
+    "description": "Social Shopping",
+    "openGraph": {
+      "title": "Shopa",
+      "description": "Featurist took shopa.com from MVP in 2012 through successive rounds to series A funding in 2014.",
+      "image": "/images/client-logos/shopa.png"
+    },
+    "quote": {
+      "text": "We have decided to work with Featurist on a number of large projects because they are the very best at what they do. They are able to provide us with a flexible working relationship and they are able to adapt themselves in anyway that ensures the best results occur.",
+      "author": "Peter Janes, Shopa / CEO"
+    },
+    "gallery": [
+      {
+        "src": "shopa2.png",
+        "alt": "Shopa",
+        "width": "486",
+        "height": "800"
+      },
+      {
+        "src": "shopa1.png",
+        "alt": "Shopa",
+        "width": "450",
+        "height": "800"
+      }
+    ]
+  }
+}

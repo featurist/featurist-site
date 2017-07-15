@@ -1,0 +1,25 @@
+/** @define GalleryBar; weak */
+
+.GalleryBar {
+  align-items: center;
+  background-color: var(--color-brand-gray-dark);
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.GalleryBar-item {
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+/*
+ * Modifiers
+ */
+
+.GalleryBar--narrow {
+  max-height: 250px;
+}

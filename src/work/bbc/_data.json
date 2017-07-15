@@ -1,0 +1,20 @@
+{
+  "index": {
+    "title": "BBC",
+    "tagline": "Work - Featurist",
+    "description": "Coaching and Development",
+    "openGraph": {
+      "title": "BBC",
+      "description": "Featurist has provided coaching to various teams at the BBC to lead them through adoption of Behaviour Driven Development.",
+      "image": "/images/client-logos/bbc.png"
+    },
+    "gallery": [
+      {
+        "src": "bbc2.png",
+        "alt": "BBC",
+        "width": "3000",
+        "height": "400"
+      }
+    ]
+  }
+}

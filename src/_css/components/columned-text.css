@@ -1,0 +1,13 @@
+/** @define ColumnedText */
+
+.ColumnedText {
+
+  @media (--md-viewport-min) {
+    column-gap: 50px;
+    columns: 2;
+  }
+
+  @media (--lg-viewport-min) {
+    column-gap: 75px;
+  }
+}

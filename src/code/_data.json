@@ -1,0 +1,35 @@
+{
+  "index": {
+    "title": "Our Code",
+    "tagline": "Featurist",
+    "description": "We are passionate about contributing to the open-source community. Check out some of our projects.",
+    "openGraph": {
+      "title": "Our Open-source Projects",
+      "description": "We are passionate about contributing to the open-source community. Check out some of our projects.",
+      "image": "/images/tile.png"
+    }
+  },
+  "projects": {
+    "hyperdom": {
+      "title": "hyperdom"
+    },
+    "browser-monkey": {
+      "title": "Browser Monkey"
+    },
+    "httpism": {
+      "title": "httpism"
+    },
+    "vinehill": {
+      "title": "Vine Hill"
+    },
+    "cucumber-electron": {
+      "title": "cucumber-electron"
+    },
+    "sworm": {
+      "title": "sworm"
+    },
+    "coypu": {
+      "title": "Coypu"
+    }
+  }
+}

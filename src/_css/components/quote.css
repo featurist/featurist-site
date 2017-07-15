@@ -1,0 +1,56 @@
+/** @define Quote */
+
+.Quote {
+  border-bottom: 1px solid color(#fff shade(10%));
+  border-top: @border-bottom;
+  margin-top: 30px;
+  padding: 30px 0;
+
+  @media (--sm-viewport-min) {
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+
+  @media (--md-viewport-min) {
+    margin: 50px auto 0;
+    max-width: 70%;
+  }
+
+  @media (--lg-viewport-min) {
+    margin: 60px auto 0;
+    max-width: 55%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.Quote-text {
+  font-family: var(--font-brand-serif);
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+
+  &::before {
+    content: "“";
+  }
+
+  &::after {
+    content: "”";
+  }
+
+  @media (--md-viewport-min) {
+    font-size: 22px;
+  }
+
+  @media (--lg-viewport-min) {
+    font-size: 25px;
+  }
+}
+
+.Quote-author {
+  font-size: var(--font-size-base);
+
+  &::before {
+    content: "− ";
+  }
+}

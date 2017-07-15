@@ -1,0 +1,16 @@
+{
+  "index": {
+    "title": "hyperdom",
+    "tagline": "Code - Featurist",
+    "description": "Fast, feature rich and simple framework",
+    "openGraph": {
+      "title": "Project: hyperdom",
+      "description": "Fast, feature rich and simple web framework.",
+      "image": "/images/project-logos/hyperdom.png"
+    },
+    "cta": {
+      "label": "View on GitHub >",
+      "url": "https://github.com/featurist/hyperdom"
+    }
+  }
+}

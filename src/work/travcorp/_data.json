@@ -1,0 +1,36 @@
+{
+  "index": {
+    "title": "Travel Corporation",
+    "tagline": "Work - Featurist",
+    "description": "Online Booking Engine and API",
+    "openGraph": {
+      "title": "The Travel Corporation",
+      "description": "Rebuilding legacy back-end and B2C systems into modern, well tested responsive websites.",
+      "image": "/images/client-logos/travcorp.png"
+    },
+    "site": {
+      "label": "ttc.com",
+      "url": "https://ttc.com/"
+    },
+    "gallery": [
+      {
+        "src": "map-car.jpg",
+        "alt": "Toy car on map",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "ipad-laptop.jpg",
+        "alt": "iPad and laptop",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "lap-laptop.jpg",
+        "alt": "Laptop on lap",
+        "width": "900",
+        "height": "800"
+      }
+    ]
+  }
+}

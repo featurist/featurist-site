@@ -1,0 +1,20 @@
+{
+  "index": {
+    "title": "Euromoney Institutional Investor PLC",
+    "tagline": "Work - Euromoney",
+    "description": "API and Semantic Markup Editor",
+    "openGraph": {
+      "title": "Euromoney",
+      "description": "Featurist built an API and semantic markup editor for Euromoney in 2013.",
+      "image": "/images/client-logos/euromoney.png"
+    },
+    "site": {
+      "label": "www.euromoneyplc.com",
+      "url": "http://www.euromoneyplc.com/"
+    },
+    "quote": {
+      "text": "The team we hired from Featurist were dedicated professionals and expert developers. Their commitment to quality and mature approach to Behaviour Driven Development was instrumental in getting a critical project off to a good start and invaluable in maintaining quality over time. Their high standards were also a great help in our recruitment process.",
+      "author": "Ben Jones, Euromoney / CTO"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<div class="Jumbotron Jumbotron--dark u-textCenter">
+  <div class="Container">
+    <h1 class="Jumbotron-title">Our Projects</h1>
+    <p class="u-textLead">
+      <%= description %>
+    </p>
+  </div>
+</div>
+
+<div class="Container">
+  <ul class="MediaHeroList">
+    <% for (var slug in public.code._data.projects) {
+      var project = public.code._data.projects[slug]
+    %>
+      <li class="MediaHeroList-item">
+        <figure class="MediaHero MediaHero--inverted">
+          <a href="<%= slug %>/">
+            <% if (project.logo) { %>
+              <div class="MediaHero-imageWrap">
+                <img class="MediaHero-image"
+                     src="../images/project-logos/<%= project.logo.image %>"
+                     alt="<%= project.title %> logo"
+                     width="<%= project.logo.width %>"
+                     height="<%= project.logo.height %>">
+              </div>
+            <% } %>
+            <figcaption>
+              <h3 class="MediaHero-title"><%= project.title %></h3>
+              <p class="MediaHero-description">
+                <%= public.code[slug]._data.index.openGraph.description %>
+              </p>
+            </figcaption>
+          </a>
+        </figure>
+      </li>
+    <% } %>
+  </ul>
+</div>

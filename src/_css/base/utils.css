@@ -1,0 +1,25 @@
+/** @define utilities */
+
+/*
+ * Extends SUIT CSS utils
+ * https://github.com/suitcss/utils-layout/
+ * https://github.com/suitcss/utils-text/
+ * https://github.com/suitcss/utils-display/
+ */
+
+.u-textLead {
+  font-size: 19px !important;
+}
+
+.u-textItalic {
+  font-style: italic !important;
+}
+
+.u-floatMediaRight {
+  margin-bottom: 20px;
+
+  @media (--md-viewport-min) {
+    float: right;
+    margin-left: 20px;
+  }
+}

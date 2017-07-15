@@ -1,0 +1,29 @@
+/** @define SocialLinks; weak */
+
+.SocialLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: @margin-left;
+  width: 120px;
+}
+
+.SocialLinks-item {
+
+  a {
+    display: block;
+
+    &:hover {
+
+      .Icon {
+        color: #fff;
+      }
+    }
+  }
+
+  .Icon {
+    color: color(var(--color-brand-primary) a(30%));
+    size: 30px;
+    transition: color var(--transition-duration) ease-in-out;
+  }
+}

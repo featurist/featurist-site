@@ -1,0 +1,91 @@
+/** @define ClientLogo */
+
+.ClientLogo {
+  background-image: url("images/client-logos/logos-sprite.png");
+  background-size: 202px;
+  color: transparent;
+  display: block;
+  font: 0/0 a;
+  height: 40px;
+}
+
+.ClientLogo-camden {
+  background-position: 0 0;
+  width: 202px;
+
+  &:hover {
+    background-position: 0 -45px;
+  }
+}
+
+.ClientLogo-thePigeonhole {
+  background-position: 0 -90px;
+  width: 174px;
+
+  &:hover {
+    background-position: 0 -135px;
+  }
+}
+
+.ClientLogo-scribeasy {
+  background-position: 0 -180px;
+  width: 162px;
+
+  &:hover {
+    background-position: 0 -225px;
+  }
+}
+
+.ClientLogo-farmdrop {
+  background-position: 0 -270px;
+  width: 157px;
+
+  &:hover {
+    background-position: 0 -315px;
+  }
+}
+
+.ClientLogo-imd {
+  background-position: 0 -360px;
+  width: 51px;
+
+  &:hover {
+    background-position: 0 -405px;
+  }
+}
+
+.ClientLogo-7digital {
+  background-position: 0 -452px;
+  width: 127px;
+
+  &:hover {
+    background-position: 0 -497px;
+  }
+}
+
+.ClientLogo-broadbandChoices {
+  background-position: 0 -542px;
+  width: 125px;
+
+  &:hover {
+    background-position: 0 -587px;
+  }
+}
+
+.ClientLogo-bbc {
+  background-position: 0 -632px;
+  width: 139px;
+
+  &:hover {
+    background-position: 0 -677px;
+  }
+}
+
+.ClientLogo-euromoney {
+  background-position: 0 -722px;
+  width: 100px;
+
+  &:hover {
+    background-position: 0 -767px;
+  }
+}

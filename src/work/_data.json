@@ -1,0 +1,102 @@
+{
+  "index": {
+    "title": "Our Work",
+    "tagline": "Featurist",
+    "description": "We've built mobile and web apps for startups through to large enterprises. Here are some examples of our work.",
+    "openGraph": {
+      "title": "Our Work",
+      "description": "We've built mobile and web apps for startups through to large enterprises, and worked with established companies to transform legacy systems. Read about our past clients to get a better idea of how we work.",
+      "image": "/images/tile.png"
+    }
+  },
+  "clients": {
+    "camden": {
+      "title": "London Borough of Camden",
+      "logo": {
+        "image": "camden.png",
+        "width": "100",
+        "height": "77"
+      }
+    },
+    "bbc": {
+      "title": "BBC",
+      "logo": {
+        "image": "bbc.png",
+        "width": "100",
+        "height": "28"
+      }
+    },
+    "travcorp": {
+      "title": "The Travel Corporation",
+      "logo": {
+        "image": "travcorp.png",
+        "width": "100",
+        "height": "101"
+      }
+    },
+    "scribeasy": {
+      "title": "Scribeasy",
+      "logo": {
+        "image": "scribeasy.png",
+        "width": "100",
+        "height": "102"
+      }
+    },
+    "the-pigeonhole": {
+      "title": "The Pigeonhole",
+      "logo": {
+        "image": "the-pigeonhole.png",
+        "width": "100",
+        "height": "23"
+      }
+    },
+    "farmdrop": {
+      "title": "Farmdrop",
+      "logo": {
+        "image": "farmdrop.png",
+        "width": "100",
+        "height": "100"
+      }
+    },
+    "imd": {
+      "title": "IMD Business School",
+      "logo": {
+        "image": "imd.png",
+        "width": "100",
+        "height": "80"
+      }
+    },
+    "broadband-choices": {
+      "title": "Broadband Choices",
+      "logo": {
+        "image": "broadband-choices.png",
+        "width": "100",
+        "height": "33"
+      }
+    },
+    "euromoney": {
+      "title": "Euromoney",
+      "logo": {
+        "image": "euromoney.png",
+        "width": "100",
+        "height": "40"
+      }
+    },
+    "shopa": {
+      "title": "Shopa",
+      "logo": {
+        "image": "shopa.png",
+        "width": "100",
+        "height": "101"
+      }
+    },
+    "7digital": {
+      "title": "7digital",
+      "logo": {
+        "image": "7digital.png",
+        "width": "100",
+        "height": "101"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/*
+ * Scroll effect classes for ScrollTrigger
+ * https://github.com/terwanerik/ScrollTrigger
+ */
+
+:root {
+  --scroll-transition: transform 1s ease, opacity 1s ease;
+}
+
+.fromTopIn {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: var(--scroll-transition);
+}
+
+.fromTopOut {
+  opacity: 0;
+  transform: translate(0, -10px);
+  transition: var(--scroll-transition);
+}
+
+.fromBottomIn {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: var(--scroll-transition);
+}
+
+.fromBottomOut {
+  opacity: 0;
+  transform: translate(0, 10px);
+  transition: var(--scroll-transition);
+}
+
+.fromLeftIn {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: var(--scroll-transition);
+}
+
+.fromLeftOut {
+  opacity: 0;
+  transform: translate(-10px, 0);
+  transition: var(--scroll-transition);
+}
+
+.fromRightIn {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: var(--scroll-transition);
+}
+
+.fromRightOut {
+  opacity: 0;
+  transform: translate(10px, 0);
+  transition: var(--scroll-transition);
+}
+
+.scaleUpIn {
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: var(--scroll-transition);
+}
+
+.scaleUpOut {
+  opacity: 0;
+  transform: scale(1.3, 1.3);
+  transition: var(--scroll-transition);
+}
+
+.scaleDownIn {
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: var(--scroll-transition);
+}
+
+.scaleDownOut {
+  opacity: 0;
+  transform: scale(0.7, 0.7);
+  transition: var(--scroll-transition);
+}

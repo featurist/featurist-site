@@ -1,0 +1,67 @@
+.Form-input {
+  border: 1px solid var(--color-brand-gray-light);
+  border-radius: var(--border-radius-base);
+  display: block;
+  font-size: var(--font-size-base); /* Prevent input zoom on iOS */
+  line-height: 1.45;
+  padding: 12px 20px;
+  width: 100%;
+
+  @media (--md-viewport-min) {
+    font-size: 14px;
+    line-height: var(--line-height-base);
+  }
+}
+
+.Form-group {
+  margin-bottom: 20px;
+}
+
+.Form-label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Override MailChimp inline validation alerts */
+
+#mc_embed_signup,
+#mc_embed_signup_scroll {
+
+  .mc-field-group {
+
+    .mce_inline_error {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: @border-bottom-left-radius;
+    }
+
+    div.mce_inline_error {
+      background-color: #f2dede;
+      border: 1px solid #ebcccc;
+      border-bottom-left-radius: var(--border-radius-base);
+      border-bottom-right-radius: @border-bottom-left-radius;
+      color: #a94442;
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+
+  #mce-success-response,
+  #mce-error-response {
+    border: 1px solid transparent;
+    border-radius: var(--border-radius-base);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+
+  #mce-success-response {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+  }
+
+  #mce-error-response {
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
+  }
+}

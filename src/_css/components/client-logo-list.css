@@ -1,0 +1,33 @@
+/** @define ClientLogoList */
+
+.ClientLogoList {
+  border-top: 1px solid color(#000 a(10%));
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+
+  @media (--md-viewport-min) {
+    margin-left: 5%;
+    margin-right: @margin-left;
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+
+  @media (--lg-viewport-min) {
+    margin-top: 60px;
+    padding-top: 50px;
+  }
+}
+
+.ClientLogoList-item {
+  display: inline-block;
+  margin: 10px;
+
+  @media (--sm-viewport-min) {
+    margin: 20px;
+  }
+
+  @media (--md-viewport-min) {
+    margin-bottom: 30px;
+  }
+}

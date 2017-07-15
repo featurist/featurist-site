@@ -1,0 +1,30 @@
+{
+  "index": {
+    "title": "London Borough of Camden",
+    "tagline": "Work - Featurist",
+    "description": "Council Tax Portal",
+    "openGraph": {
+      "title": "London Borough of Camden",
+      "description": "We worked with London Borough of Camden to develop a high quality solution for their customer facing council tax services portal.",
+      "image": "/images/client-logos/camden.png"
+    },
+    "quote": {
+      "text": "Featurist were able to rapidly develop a high quality solution for our customer facing council tax services and were instrumental in helping to mature our in house agile development process. I would definitely use Featurist again, and have no hesitation in recommending them.",
+      "author": "Chris Burnett, Camden / Solution Architect"
+    },
+    "gallery": [
+      {
+        "src": "camden-lock.jpg",
+        "alt": "Camden Lock",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "laptop-screenshot.jpg",
+        "alt": "Laptop",
+        "width": "900",
+        "height": "800"
+      }
+    ]
+  }
+}

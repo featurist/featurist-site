@@ -1,0 +1,32 @@
+/** @define MediaHeroList */
+
+.MediaHeroList {
+  padding: 30px 0;
+
+  @media (--md-viewport-min) {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 20px;
+  }
+
+  @media (--xl-viewport-min) {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 60px;
+    padding-top: @padding-bottom;
+  }
+
+  @media (min-width: 1250px) {
+    padding-left: 0;
+    padding-right: @padding-left;
+  }
+}
+
+.MediaHeroList-item {
+  margin-bottom: 20px;
+
+  @media (--md-viewport-min) {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --color-brand-primary: #bfe6ce;
+  --color-brand-secondary: #e6744f;
+  --color-brand-gray-dark: #555a62;
+  --color-brand-gray-light: #7d838b;
+  --color-text: var(--color-brand-gray-dark);
+
+  --font-brand-base: var(--font-brand-sans-serif);
+  --font-brand-serif: "Palatino", "Georgia", serif;
+  --font-brand-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-size-base: 16px;
+
+  --line-height-base: 1.7;
+  --border-radius-base: 4px;
+  --transition-duration: 100ms;
+}
+
+@custom-media --xs-viewport-min (min-width: 320px);
+@custom-media --xs-viewport-max (max-width: 320px);
+@custom-media --sm-viewport-min (min-width: 480px);
+@custom-media --sm-viewport-max (max-width: 480px);
+@custom-media --md-viewport-min (min-width: 768px);
+@custom-media --md-viewport-max (max-width: 768px);
+@custom-media --lg-viewport-min (min-width: 992px);
+@custom-media --lg-viewport-max (max-width: 992px);
+@custom-media --xl-viewport-min (min-width: 1200px);
+@custom-media --xl-viewport-max (max-width: 1200px);

@@ -1,0 +1,31 @@
+<div class="Jumbotron Jumbotron--shadeUp Jumbotron--light u-textCenter">
+  <div class="Container">
+    <h1 class="Jumbotron-title">Our Work</h1>
+    <p class="u-textLead">
+      <%= description %>
+    </p>
+  </div>
+</div>
+
+<div class="Container">
+  <ul class="MediaHeroList">
+    <% for (var slug in public.work._data.clients) {
+      var caseStudy = public.work._data.clients[slug]
+    %>
+      <li class="MediaHeroList-item">
+        <figure class="MediaHero">
+          <a href="<%= slug %>/">
+            <div class="MediaHero-imageWrap">
+              <img class="MediaHero-image"
+                   src="../images/client-logos/<%= caseStudy.logo.image %>"
+                   alt="<%= caseStudy.title %> logo"
+                   width="<%= caseStudy.logo.width %>"
+                   height="<%= caseStudy.logo.height %>">
+            </div>
+            <figcaption class="MediaHero-title"><%= caseStudy.title %></figcaption>
+          </a>
+        </figure>
+      </li>
+    <% } %>
+  </ul>
+</div>

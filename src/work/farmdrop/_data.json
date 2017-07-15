@@ -1,0 +1,34 @@
+{
+  "index": {
+    "title": "Farmdrop",
+    "tagline": "Work - Featurist",
+    "description": "Food Delivery iOS App",
+    "openGraph": {
+      "title": "Farmdrop",
+      "description": "Featurist developed an iOS app for this local produce and organic food delivery business.",
+      "image": "/images/client-logos/farmdrop.png"
+    },
+    "cta": {
+      "label": "View on App Store >",
+      "url": "https://appsto.re/gb/eSN39.i"
+    },
+    "site": {
+      "label": "www.farmdrop.com",
+      "url": "https://www.farmdrop.com/"
+    },
+    "gallery": [
+      {
+        "src": "farm1.png",
+        "alt": "Farmdrop web",
+        "width": "700",
+        "height": "400"
+      },
+      {
+        "src": "farm2.jpeg",
+        "alt": "Farmdrop app",
+        "width": "220",
+        "height": "400"
+      }
+    ]
+  }
+}

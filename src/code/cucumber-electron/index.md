@@ -1,0 +1,1 @@
+[cucumber-electron](https://github.com/featurist/cucumber-electron) runs [cucumber-js](https://github.com/cucumber/cucumber-js) in an [electron](https://github.com/electron/electron) renderer process. Scenarios have direct access to both a browser DOM and node.js libraries, so they are fast and easy to debug interactively.

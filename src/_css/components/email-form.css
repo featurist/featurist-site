@@ -1,0 +1,21 @@
+/** @define EmailForm */
+
+.EmailForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.EmailForm-input {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+
+  @media (--md-viewport-min) {
+    width: 250px;
+  }
+}
+
+.EmailForm-button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

@@ -1,0 +1,33 @@
+/** @define ProfileHeroPair; weak */
+
+.ProfileHeroPair {
+  margin-bottom: 50px;
+
+  @media (--sm-viewport-min) {
+    display: flex;
+  }
+
+  @media (--md-viewport-min) {
+    margin-bottom: 0;
+  }
+}
+
+.ProfileHeroPair-item {
+  margin-bottom: 20px;
+
+  @media (--sm-viewport-min) {
+    margin-bottom: 0;
+
+    .ProfileHero-imageWrap {
+      min-height: 145px;
+    }
+  }
+
+  @media (--md-viewport-min) {
+    width: 50%;
+  }
+
+  @media (--lg-viewport-min) {
+    padding: 10px;
+  }
+}

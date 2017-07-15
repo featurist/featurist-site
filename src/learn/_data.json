@@ -1,0 +1,26 @@
+{
+  "index": {
+    "title": "Learn",
+    "tagline": "Featurist",
+    "description": "At Featurist we love to spread knowledge. You can regularly find us attending meetups and speaking at conferences or running courses. Here are some of our upcoming events.",
+    "openGraph": {
+      "title": "Learn",
+      "description": "At Featurist we love to spread knowledge. You can regularly find us attending meetups and speaking at conferences or running courses. Here are some of our upcoming events.",
+      "image": "/images/tile.png"
+    }
+  },
+  "events": {
+    "full-stack-testing": {
+      "title": "Full-stack testing that doesn't suck",
+      "date": "2017-03-22"
+    },
+    "full-stack-bdd": {
+      "title": "Full-stack BDD with cucumber-electron",
+      "date": "2017-02-23"
+    },
+    "full-stack-apps": {
+      "title": "JS web apps with fast, full-stack tests",
+      "date": "2017-06-26"
+    }
+  }
+}

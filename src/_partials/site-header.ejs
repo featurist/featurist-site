@@ -1,0 +1,27 @@
+<header class="SiteHeader">
+  <div class="Container">
+    <a href="/" class="SiteHeader-logo">
+      <svg class="SiteHeader-logoIcon"><use xlink:href="#i-featurist" /></svg>
+      <span class="SiteHeader-logoText">Featurist</span>
+    </a>
+    <nav class="SiteNav">
+      <ul class="SiteNav-list">
+        <li class="SiteNav-item<%= current.path[0] == 'index' ? ' is-current' : '' %>">
+          <a href="/">Home</a>
+        </li>
+        <li class="SiteNav-item<%= current.path[0] == 'work' ? ' is-current' : '' %>">
+          <a href="/work/">Work</a>
+        </li>
+        <li class="SiteNav-item<%= current.path[0] == 'code' ? ' is-current' : '' %>">
+          <a href="/code/">Code</a>
+        </li>
+        <li class="SiteNav-item<%= current.path[0] == 'learn' ? ' is-current' : '' %>">
+          <a href="/learn/">Learn</a>
+        </li>
+        <li class="SiteNav-item<%= current.path[0] == 'contact' ? ' is-current' : '' %>">
+          <a href="/contact/">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

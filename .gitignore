@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+dist
+src/styles.css
+src/styles.css.map
+src/images/icon-sprite.svg
+src/js/plugins.js
+*.sw?

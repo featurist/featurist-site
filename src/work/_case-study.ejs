@@ -1,0 +1,50 @@
+<div class="Jumbotron Jumbotron--shadeUp Jumbotron--light u-textCenter">
+  <div class="Container">
+    <h1 class="Jumbotron-title"><%= title %></h1>
+    <p class="u-textLead"><%= description %></p>
+    <% if (locals.site) { %>
+      <p>
+        <a href="<%= site.url %>"><%= site.label %></a>
+      </p>
+    <% } %>
+    <% if (locals.cta) { %>
+      <p>
+        <a href="<%= cta.url %>" class="Button Button--primary"><%= cta.label %></a>
+      </p>
+    <% } %>
+  </div>
+</div>
+
+<% if (locals.gallery) { %>
+  <ul class="GalleryBar">
+    <% for (var image in gallery) { %>
+      <li class="GalleryBar-item">
+        <img src="images/<%= gallery[image].src %>"
+             alt="<%= gallery[image].alt %>"
+             width="<%= gallery[image].width %>"
+             height="<%= gallery[image].height %>">
+      </li>
+    <% } %>
+  </ul>
+<% } %>
+
+<article class="BodyText u-cf">
+  <div class="Container">
+    <div class="ColumnedText">
+      <%- yield %>
+    </div>
+    <% if (locals.quote) { %>
+      <blockquote class="Quote" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+        <p class="Quote-text"><%= quote.text %></p>
+        <footer class="Quote-author"><%= quote.author %></footer>
+      </blockquote>
+    <% } %>
+  </div>
+</article>
+
+<div class="Jumbotron Jumbotron--shadeUp Jumbotron--light Jumbotron--narrow">
+  <div class="Container u-textCenter" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+    <h3 class="Jumbotron-title Jumbotron-title--inline">Want to build something together?</h3>
+    <a href="/contact/" class="Button Button--primary">Contact us</a>
+  </div>
+</div>

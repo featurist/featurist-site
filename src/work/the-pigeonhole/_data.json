@@ -1,0 +1,38 @@
+{
+  "index": {
+    "title": "The Pigeonhole",
+    "tagline": "Work - Featurist",
+    "description": "iOS and web app MVP",
+    "openGraph": {
+      "title": "The Pigeonhole",
+      "description": "The Pigeonhole is transforming the way in which readers, writers and great books interact.",
+      "image": "/images/client-logos/the-pigeonhole.png"
+    },
+    "cta": {
+      "label": "View on App Store >",
+      "url": "https://itunes.apple.com/gb/app/the-pigeonhole-reader/id869044004"
+    },
+    "site": {
+      "label": "thepigeonhole.com",
+      "url": "https://thepigeonhole.com/"
+    },
+    "quote": {
+      "text": "Featurist have been our key partner taking the Pigeonhole from a design concept, through beta to the full product launch. User feedback on both the technical architecture and the user experience has been excellent - and I could not recommend them enough.",
+      "author": "Jacob Cockroft, The Pigeonhole / CEO"
+    },
+    "gallery": [
+      {
+        "src": "splash.png",
+        "alt": "Pigeonhole",
+        "width": "626",
+        "height": "300"
+      },
+      {
+        "src": "book.png",
+        "alt": "Pigeonhole reader",
+        "width": "600",
+        "height": "300"
+      }
+    ]
+  }
+}

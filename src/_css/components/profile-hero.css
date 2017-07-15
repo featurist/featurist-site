@@ -1,0 +1,50 @@
+/** @define ProfileHero */
+
+.ProfileHero {}
+
+.ProfileHero-anchor {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+
+  &:hover .ProfileHero-title {
+    text-decoration: underline;
+  }
+
+  @media (--md-viewport-min) {
+    padding: 0 10px;
+  }
+}
+
+.ProfileHero-imageWrap {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.ProfileHero-image {}
+
+.ProfileHero-title {
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.ProfileHero-caption {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+
+  @media (--md-viewport-min) {
+    font-size: 15px;
+  }
+}
+
+/*
+ * Modifiers
+ */
+
+.ProfileHero-image--circle {
+  border: 2px solid color(var(--color-brand-primary) shade(30%));
+  border-radius: 50%;
+}

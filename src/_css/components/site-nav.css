@@ -1,0 +1,68 @@
+/** @define SiteNav; weak */
+
+.SiteNav {
+
+  @media (--sm-viewport-min) {
+    float: right;
+  }
+}
+
+.SiteNav-list {}
+
+.SiteNav-item {
+  display: inline-block;
+  font-size: 13px;
+
+  &.is-current a,
+  &.is-current a:hover {
+    border-bottom: 1px solid color(var(--color-brand-primary) shade(8%));
+    color: var(--color-text);
+  }
+
+  a {
+    display: block;
+    padding: 5px 3px;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-brand-secondary);
+    }
+  }
+
+  @media (--xs-viewport-min) {
+
+    a {
+      padding: 10px 8px;
+    }
+  }
+
+  @media (--sm-viewport-min) {
+    font-size: 14px;
+    line-height: 1.6;
+
+    a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  @media (--md-viewport-min) {
+    font-size: var(--font-size-base);
+    line-height: 1.9;
+    margin-left: 15px;
+
+    a {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  @media (--lg-viewport-min) {
+    font-size: 18px;
+
+    a {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

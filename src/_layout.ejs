@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %> - <%= tagline %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%- partial("_partials/metadata") %>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="Site">
+
+    <div class="u-hiddenVisually" aria-hidden="true">
+      <%- include images/icon-sprite.svg %>
+    </div>
+
+    <%- partial("_partials/site-header") %>
+
+    <!--[if lte IE 9]>
+      <p class="Alert u-textCenter">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <main class="Site-content">
+      <% if (current.path[0] == "work" && current.path[1] !== 'index') { %>
+        <%- partial(current.path[0] + "/_case-study") %>
+      <% } else if (current.path[0] == "code" && current.path[1] !== 'index') { %>
+        <%- partial(current.path[0] + "/_project") %>
+      <% } else if (current.path[0] == "learn" && current.path[1] !== 'index') { %>
+        <%- partial(current.path[0] + "/_event") %>
+      <% } else { %>
+        <%- yield %>
+      <% } %>
+    </main>
+
+    <%- partial("_partials/site-footer") %>
+
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+    <% if (current.path[0] == "contact") { %>
+      <script>
+        function initMap() {
+          var officeLocation = {lat: 51.5226226, lng: -0.1108771};
+          var map = new google.maps.Map(document.getElementById('visit-us'), {
+            zoom: 17,
+            center: officeLocation,
+            scrollwheel: false,
+            mapTypeId: 'terrain'
+          });
+          var marker = new google.maps.Marker({
+            position: officeLocation,
+            map: map
+          });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjZz_O9z2biZTXghg2IBNS5zPeF7EL6GY&callback=initMap"></script>
+    <% } %>
+
+    <% if ((current.path[0] === "learn" || current.path[0] === "code") && current.path[1] !== 'index') { %>
+      <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script>
+        (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FIRSTNAME';ftypes[1]='text';fnames[2]='LASTNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+      </script>
+    <% } %>
+
+    <script>
+      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+      ga('create','UA-34932868-1','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+  </body>
+</html>
