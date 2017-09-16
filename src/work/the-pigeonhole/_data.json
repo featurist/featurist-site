@@ -22,16 +22,16 @@
     },
     "gallery": [
       {
-        "src": "splash.png",
+        "src": "splash.jpg",
         "alt": "Pigeonhole",
         "width": "626",
-        "height": "300"
+        "height": "380"
       },
       {
         "src": "book.png",
         "alt": "Pigeonhole reader",
         "width": "600",
-        "height": "300"
+        "height": "380"
       }
     ]
   }
