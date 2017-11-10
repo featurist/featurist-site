@@ -1,6 +1,6 @@
 # Featurist Site
 
-Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live at http://www.featurist.co.uk/
+Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live at https://www.featurist.co.uk/
 
 ## Quick Start
 
