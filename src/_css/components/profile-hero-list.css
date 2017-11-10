@@ -6,7 +6,7 @@
   @media (--xs-viewport-min) {
     display: grid;
     grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-row-gap: @grid-column-gap;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
   }
