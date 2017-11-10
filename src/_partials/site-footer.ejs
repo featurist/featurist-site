@@ -11,9 +11,16 @@
       </div>
     </div>
     <div class="SiteFooter-panel">
-      <p class="SiteFooter-slogan">
-        Full stack, feature driven development teams
-      </p>
+      <nav class="SiteFooter-nav">
+        <ul class="SiteFooter-navList">
+          <li class="SiteFooter-navItem<%= current.path[0] == 'contact' ? ' is-current' : '' %>">
+            <a href="/contact/">Contact</a>
+          </li>
+          <li class="SiteFooter-navItem<%= current.path[0] == 'careers' ? ' is-current' : '' %>">
+            <a href="/careers/">Careers</a>
+          </li>
+        </ul>
+      </nav>
       <ul class="SocialLinks">
         <li class="SocialLinks-item">
           <a href="https://twitter.com/featurists" title="Twitter">
