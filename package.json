@@ -8,7 +8,7 @@
     "css": "postcss src/_css/styles.css -o src/styles.css",
     "css:watch": "npm run css -- -w",
     "css:compress": "postcss -m --use cssnano -r dist/styles.css",
-    "svg": "svg-sprite --symbol --symbol-sprite=icon-sprite.svg --symbol-dest= --shape-id-generator='i-%s' --svg-xmldecl=false --dest=src/images src/images/_svg/*.svg",
+    "svg": "svgstore -o src/images/icon-sprite.svg -p 'i-' --inline src/images/_svg/*.svg",
     "lint": "standard --fix && stylelint src/_css/**/*.css",
     "build": "npm run lint && npm run svg && npm run js && harp compile src dist && npm run css:compress && npm run js:compress && npm run html && npm run images",
     "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js > src/js/plugins.js",
@@ -47,7 +47,7 @@
     "stylelint": "^8.2.0",
     "stylelint-config-suitcss": "^12.0.0",
     "stylelint-selector-bem-pattern": "^2.0.0",
-    "svg-sprite": "^1.3.7",
+    "svgstore-cli": "^1.3.0",
     "uglify-js": "^3.1.8"
   },
   "standard": {
