@@ -2,7 +2,7 @@
 
 .SiteNav {
 
-  @media (--sm-viewport-min) {
+  @media (--md-viewport-min) {
     float: right;
   }
 }
@@ -29,20 +29,12 @@
     }
   }
 
-  @media (--xs-viewport-min) {
-
-    a {
-      padding: 10px 8px;
-    }
-  }
-
   @media (--sm-viewport-min) {
     font-size: 14px;
     line-height: 1.6;
 
     a {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding: 10px;
     }
   }
 

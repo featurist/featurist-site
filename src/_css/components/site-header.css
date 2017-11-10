@@ -20,7 +20,7 @@
     transition: color var(--transition-duration) ease-in-out;
   }
 
-  @media (--sm-viewport-min) {
+  @media (--md-viewport-min) {
     padding: 20px 20px 15px;
     text-align: left;
   }

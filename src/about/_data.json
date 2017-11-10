@@ -1,0 +1,12 @@
+{
+  "index": {
+    "title": "About Us",
+    "tagline": "Featurist",
+    "description": "Learn about our development process and beliefs.",
+    "openGraph": {
+      "title": "About Featurist",
+      "description": "Learn about our development process and beliefs.",
+      "image": "/images/tile.png"
+    }
+  }
+}
