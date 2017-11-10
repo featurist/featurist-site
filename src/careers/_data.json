@@ -1,0 +1,12 @@
+{
+  "index": {
+    "title": "Careers",
+    "tagline": "Featurist",
+    "description": "Featurist is a welcoming and flexible team of software professionals.",
+    "openGraph": {
+      "title": "Careers at Featurist",
+      "description": "Featurist is a welcoming and flexible team of software professionals.",
+      "image": "/images/tile.png"
+    }
+  }
+}
