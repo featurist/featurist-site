@@ -1,0 +1,34 @@
+{
+  "index": {
+    "title": "Snoozle",
+    "tagline": "Work - Featurist",
+    "description": "iOS app MVP",
+    "openGraph": {
+      "title": "Snoozle",
+      "description": "Snoozle is a fun new way to make the first minute of every day better, by changing the way you and your friends wake up.",
+      "image": "/images/client-logos/snoozle.png"
+    },
+    "cta": {
+      "label": "View on App Store >",
+      "url": "https://itunes.apple.com/us/app/snoozle-the-social-alarm-clock/id986743853"
+    },
+    "site": {
+      "label": "www.snoozleapp.com",
+      "url": "https://www.snoozleapp.com/"
+    },
+    "gallery": [
+      {
+        "src": "screenshot.png",
+        "alt": "Snoozle app screenshot",
+        "width": "446",
+        "height": "784"
+      },
+      {
+        "src": "splash.jpg",
+        "alt": "Snoozle promo photo",
+        "width": "652",
+        "height": "536"
+      }
+    ]
+  }
+}
