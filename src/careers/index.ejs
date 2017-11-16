@@ -17,6 +17,9 @@
       We value high quality software, but we equally value communicating and solving problems as a team. We're flexible with where we work, and have many exciting projects in progress and coming up.
     </p>
     <p>
+      Many of us have young families, flexibility and trust is critical to our team ethos. If you are not able to do a traditional commite to London and fixed hours we know that doesn't affect your ability to deliver great work.
+    </p>
+    <p>
       We value open source, easy to use, well tested code. We love to engage with the wider development community through conferences (attending and talking), and try to make and take the opportunities to continuously learn and improve our skills.
     </p>
     <p>
@@ -28,22 +31,33 @@
 <div class="Jumbotron Jumbotron--shadeDown">
   <div class="Container">
     <h2 class="Jumbotron-title u-textCenter fromBottomIn" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">Current Positions</h2>
-    <p class="Jumbotron-subtitle u-textCenter fromBottomIn" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">We are always on the lookout for people who love what they do to join the Featurist team. Have a look at our current positions and let us know if you'd be a good fit!</p>
+    <p class="Jumbotron-subtitle u-textCenter fromBottomIn" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">We are always on the lookout for people who love what they do to join us.</p>
+
     <ul class="MediaHeroList">
-      <% for (var slug in public.careers._data.jobs) {
-        var job = public.careers._data.jobs[slug]
-      %>
-        <li class="MediaHeroList-item">
-          <div class="MediaHero MediaHero--inverted">
-            <a href="<%= slug %>/">
-              <h3 class="MediaHero-title"><%= job.title %></h3>
-              <p class="MediaHero-description">
-                <%= public.careers[slug]._data.index.openGraph.description %>
-              </p>
-            </a>
-          </div>
-        </li>
-      <% } %>
+      <li class="MediaHeroList-item">
+        <div class="MediaHero MediaHero--inverted">
+          <a href="/contact/">
+            <h3 class="MediaHero-title">Development</h3>
+            <p class="MediaHero-description">If you are a developer at any level, designer, tester or all of the above we'd love to hear from you and see if we're right for each other.</p>
+          </a>
+        </div>
+      </li>
+      <li class="MediaHeroList-item">
+        <div class="MediaHero MediaHero--inverted">
+          <a href="/contact/">
+            <h3 class="MediaHero-title">Delivery</h3>
+            <p class="MediaHero-description">Equally if your experience is in delivery, project management and analysis, we have a growing list of projects and clients where you can make a great impact.</p>
+          </a>
+        </div>
+      </li>
+      <li class="MediaHeroList-item">
+        <div class="MediaHero MediaHero--inverted">
+          <a href="/contact/">
+            <h3 class="MediaHero-title">Your place</h3>
+            <p class="MediaHero-description">We are not your traditional top-down organisation, all of us take responsibility, give respect and get a clear voice in Featurist.</p>
+          </a>
+        </div>
+      </li>
     </ul>
   </div>
 </div>
