@@ -9,6 +9,9 @@
         <li class="SiteNav-item<%= current.path[0] == 'index' ? ' is-current' : '' %>">
           <a href="/">Home</a>
         </li>
+        <li class="SiteNav-item<%= current.path[0] == 'about' ? ' is-current' : '' %>">
+          <a href="/about/">About</a>
+        </li>
         <li class="SiteNav-item<%= current.path[0] == 'work' ? ' is-current' : '' %>">
           <a href="/work/">Work</a>
         </li>
@@ -17,9 +20,6 @@
         </li>
         <li class="SiteNav-item<%= current.path[0] == 'learn' ? ' is-current' : '' %>">
           <a href="/learn/">Learn</a>
-        </li>
-        <li class="SiteNav-item<%= current.path[0] == 'contact' ? ' is-current' : '' %>">
-          <a href="/contact/">Contact</a>
         </li>
       </ul>
     </nav>

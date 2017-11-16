@@ -28,6 +28,8 @@
         <%- partial(current.path[0] + "/_project") %>
       <% } else if (current.path[0] == "learn" && current.path[1] !== 'index') { %>
         <%- partial(current.path[0] + "/_event") %>
+      <% } else if (current.path[0] == "careers" && current.path[1] !== 'index') { %>
+        <%- partial(current.path[0] + "/_job") %>
       <% } else { %>
         <%- yield %>
       <% } %>

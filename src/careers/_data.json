@@ -1,0 +1,29 @@
+{
+  "index": {
+    "title": "Careers",
+    "tagline": "Featurist",
+    "description": "Featurist is a welcoming and flexible team of software professionals.",
+    "openGraph": {
+      "title": "Careers at Featurist",
+      "description": "Featurist is a welcoming and flexible team of software professionals.",
+      "image": "/images/tile.png"
+    }
+  },
+  "jobs": {
+    "delivery-director": {
+      "title": "Delivery Director"
+    },
+    "designer": {
+      "title": "Designer"
+    },
+    "developer": {
+      "title": "Developer"
+    },
+    "project-manager": {
+      "title": "Project Manager"
+    },
+    "tester": {
+      "title": "Tester"
+    }
+  }
+}
