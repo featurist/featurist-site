@@ -14,7 +14,7 @@
     "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js > src/js/plugins.js",
     "js:compress": "uglifyjs dist/js/main.js -o dist/js/main.js -cm && uglifyjs dist/js/plugins.js -o dist/js/plugins.js -cm",
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
-    "images": "imagemin-power dist/**/*.{jpg,png,gif,svg} --out-dir=. -r",
+    "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
     "start": "harp server src --port ${PORT:-3000} & npm run css:watch",
     "deploy": "npm run build && gh-pages -d dist -b gh-pages"
   },
@@ -34,7 +34,7 @@
     "gh-pages": "^1.0.0",
     "harp": "^0.24.1",
     "html-minifier": "^3.5.6",
-    "imagemin-power-cli": "^3.0.0",
+    "imagemin-cli": "^3.0.0",
     "postcss-cli": "4.1.1",
     "postcss-color-function": "^4.0.1",
     "postcss-custom-media": "^6.0.0",
