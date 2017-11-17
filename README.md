@@ -10,10 +10,6 @@ Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live a
 
 ## Useful Scripts
 
-- `npm run css` - Build CSS with [PostCSS](https://github.com/postcss/postcss)
-- `npm run css:watch` - Build CSS, watch for changes
-- `npm run js` - Concat JS plugin files to `/src/js/plugins.js`
-- `npm run svg` - Build SVGs into icon sprite with [svgstore](https://github.com/svgstore/svgstore-cli)
-- `npm run lint` - Lint JS with [Standard](https://github.com/feross/standard), CSS with [stylelint](https://stylelint.io/)/[stylelint-config-suitcss](https://github.com/suitcss/stylelint-config-suitcss)
-- `npm run build` - Build `/dist` directory
 - `npm run deploy` - Build `/dist` directory, push to `gh-pages` branch with [gh-pages](https://github.com/tschaub/gh-pages)
+- `npm run svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon sprite with [svgstore](https://github.com/svgstore/svgstore-cli)
+- `npm run lint` - Lint JS with [Standard](https://github.com/feross/standard), CSS with [stylelint](https://stylelint.io/)/[stylelint-config-suitcss](https://github.com/suitcss/stylelint-config-suitcss)
