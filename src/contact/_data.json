@@ -6,7 +6,7 @@
     "openGraph": {
       "title": "Contact Featurist Today",
       "description": "Get in touch to discuss how we can help your company.",
-      "image": "/images/tile.png"
+      "image": "https://www.featurist.co.uk/images/tile.png"
     }
   }
 }
