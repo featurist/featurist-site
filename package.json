@@ -5,12 +5,12 @@
   "description": "Static Featurist Ltd site.",
   "scripts": {
     "postinstall": "npm run css && npm run js && npm run svg",
+    "precommit": "lint-staged",
     "css": "postcss src/_css/styles.css -o src/styles.css",
     "css:watch": "npm run css -- -w",
     "css:compress": "postcss -m --use cssnano -r dist/styles.css",
     "svg": "svgstore -o src/images/icon-sprite.svg -p 'i-' --inline src/images/_svg/*.svg",
-    "lint": "standard --fix && stylelint src/_css/**/*.css",
-    "build": "npm run lint && npm run svg && npm run js && harp compile src dist && npm run css:compress && npm run js:compress && npm run html && npm run images",
+    "build": "npm run svg && npm run js && harp compile src dist && npm run css:compress && npm run js:compress && npm run html && npm run images",
     "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js > src/js/plugins.js",
     "js:compress": "uglifyjs dist/js/main.js -o dist/js/main.js -cm && uglifyjs dist/js/plugins.js -o dist/js/plugins.js -cm",
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
@@ -31,10 +31,14 @@
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "cssnano": "^3.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
     "gh-pages": "^1.1.0",
     "harp": "^0.24.1",
     "html-minifier": "^3.5.6",
+    "husky": "^0.14.3",
     "imagemin-cli": "^3.0.0",
+    "lint-staged": "^5.0.0",
     "postcss-cli": "4.1.1",
     "postcss-color-function": "^4.0.1",
     "postcss-custom-media": "^6.0.0",
@@ -43,18 +47,12 @@
     "postcss-nested": "^2.1.2",
     "postcss-property-lookup": "^2.0.0",
     "postcss-size": "^2.0.0",
-    "standard": "*",
+    "prettier": "^1.8.2",
     "stylelint": "^8.2.0",
     "stylelint-config-suitcss": "^12.0.0",
     "stylelint-selector-bem-pattern": "^2.0.0",
     "svgstore-cli": "^1.3.1",
     "uglify-js": "^3.1.9"
-  },
-  "standard": {
-    "global": [
-      "Headroom",
-      "ScrollTrigger"
-    ]
   },
   "browserslist": [
     "> 5%",
@@ -78,5 +76,15 @@
   },
   "postcssSortingConfig": {
     "properties-order": "alphabetical"
+  },
+  "lint-staged": {
+    "*.{js,md}": [
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
   }
 }

@@ -1,6 +1,7 @@
 # Featurist Site
 
-Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live at https://www.featurist.co.uk/
+Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live
+at https://www.featurist.co.uk/
 
 ## Quick Start
 
@@ -10,6 +11,7 @@ Static Featurist site built with [Harp](https://github.com/sintaxi/harp). Live a
 
 ## Useful Scripts
 
-- `npm run deploy` - Build `/dist` directory, push to `gh-pages` branch with [gh-pages](https://github.com/tschaub/gh-pages)
-- `npm run svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon sprite with [svgstore](https://github.com/svgstore/svgstore-cli)
-- `npm run lint` - Lint JS with [Standard](https://github.com/feross/standard), CSS with [stylelint](https://stylelint.io/)/[stylelint-config-suitcss](https://github.com/suitcss/stylelint-config-suitcss)
+* `npm run deploy` - Build `/dist` directory, push to `gh-pages` branch with
+  [gh-pages](https://github.com/tschaub/gh-pages)
+* `npm run svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon
+  sprite with [svgstore](https://github.com/svgstore/svgstore-cli)

@@ -1,4 +1,4 @@
-(function () {
+;(function() {
   // Headroom.js
   // https://github.com/WickyNilliams/headroom.js
   var siteHeader = document.querySelector('.SiteHeader')
@@ -12,10 +12,10 @@
       bottom: 'is-bottom',
       notBottom: 'is-notBottom'
     },
-    onTop: function () {
+    onTop: function() {
       document.body.style.paddingTop = '0'
     },
-    onNotTop: function () {
+    onNotTop: function() {
       document.body.style.paddingTop = siteHeader.offsetHeight + 'px'
     }
   })
@@ -24,8 +24,8 @@
   // ScrollTrigger
   // https://github.com/terwanerik/ScrollTrigger
   if (window.matchMedia('(min-width: 768px)').matches) {
-    document.addEventListener('DOMContentLoaded', function () {
-      new ScrollTrigger({ // eslint-disable-line no-new
+    document.addEventListener('DOMContentLoaded', function() {
+      new ScrollTrigger({
         once: true
       })
     })
@@ -35,9 +35,9 @@
   if (pageJumpAnchor) {
     var pageJumpId = pageJumpAnchor.hash.substring(1)
     var pageJumpElem = document.getElementById(pageJumpId)
-    pageJumpAnchor.onclick = function (event) {
+    pageJumpAnchor.onclick = function(event) {
       event.preventDefault()
-      pageJumpElem.scrollIntoView({behavior: 'smooth'})
+      pageJumpElem.scrollIntoView({ behavior: 'smooth' })
       var scrolledY = window.scrollY
       if (scrolledY) {
         window.scroll(0, scrolledY - siteHeader.offsetHeight)
