@@ -18,7 +18,7 @@
     "start": "harp server src --port ${PORT:-3000} & npm run css:watch",
     "deploy": "npm run build && gh-pages -d dist -b gh-pages"
   },
-  "repository": "featurist:featurist.github.io",
+  "repository": "featurist:featurist-site",
   "dependencies": {
     "headroom.js": "^0.9.4",
     "scrolltrigger-classes": "^0.3.6",
