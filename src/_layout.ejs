@@ -5,14 +5,15 @@
     <title><%= title %> - <%= tagline %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%- partial("_partials/metadata") %>
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="/images/favicon.png">
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/images/icon-192x192.png">
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body class="Site">
 
     <div class="u-hiddenVisually" aria-hidden="true">
-      <%- include images/icon-sprite.svg %>
+      <%- include images/_icon-sprite.svg %>
     </div>
 
     <%- partial("_partials/site-header") %>
@@ -71,6 +72,12 @@
       ga('create','UA-34932868-1','auto');ga('send','pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js')
+      }
+    </script>
 
   </body>
 </html>
