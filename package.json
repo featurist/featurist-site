@@ -4,20 +4,20 @@
   "version": "2.0.0",
   "description": "Static Featurist Ltd site.",
   "scripts": {
-    "postinstall": "npm run css && npm run js && npm run svg",
+    "postinstall": "yarn css && yarn js && yarn svg",
     "precommit": "lint-staged",
     "css": "postcss src/_css/styles.css -o src/styles.css",
-    "css:watch": "npm run css -- -w",
+    "css:watch": "yarn css -w",
     "css:compress": "postcss -m --use cssnano -r dist/styles.css",
     "svg": "svgstore -o src/images/_icon-sprite.svg -p 'i-' --inline src/images/_svg/*.svg",
-    "build": "npm run svg && npm run js && harp compile src dist && npm run css:compress && npm run js:compress && npm run html && npm run images && npm run workbox",
+    "build": "yarn svg && yarn js && harp compile src dist && yarn css:compress && yarn js:compress && yarn html && yarn images && yarn workbox",
     "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js > src/js/plugins.js",
     "js:compress": "uglifyjs dist/js/main.js -o dist/js/main.js -cm && uglifyjs dist/js/plugins.js -o dist/js/plugins.js -cm",
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
     "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
     "workbox": "workbox generate:sw",
-    "start": "harp server src --port ${PORT:-3000} & npm run css:watch",
-    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
+    "start": "harp server src --port ${PORT:-3000} & yarn css:watch",
+    "deploy": "yarn build && gh-pages -d dist -b gh-pages"
   },
   "repository": "featurist:featurist-site",
   "dependencies": {
