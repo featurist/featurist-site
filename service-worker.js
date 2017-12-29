@@ -48,7 +48,7 @@ const fileManifest = [
   },
   {
     "url": "code/browser-monkey/index.html",
-    "revision": "b1a70be46c17f0a55db1ee3fd9f9d9ef"
+    "revision": "0f701588c9577761f15dfb5cd8f10f15"
   },
   {
     "url": "code/coypu/index.html",
@@ -216,15 +216,15 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "53bbda67eb6453a217a5e12e4f4401ef"
+    "revision": "b38c5ddb260c665398cbb9b78819fd5f"
   },
   {
     "url": "js/main.js",
-    "revision": "1ee1961f63ba9e6ceb475619c2cfdb8b"
+    "revision": "c5a7a903f8fa4b8ebcdb6db9c38f74fd"
   },
   {
     "url": "js/plugins.js",
-    "revision": "5447e9369c97d7a7308a19bbbf68d1e7"
+    "revision": "ae07f7474e32ee7b37e6b525a655a8ea"
   },
   {
     "url": "learn/full-stack-apps/index.html",
