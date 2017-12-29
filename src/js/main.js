@@ -44,4 +44,9 @@
       }
     }
   }
+
+  // Lozad.js
+  // https://github.com/ApoorvSaxena/lozad.js
+  var observer = lozad('.js-lazyload')
+  observer.observe()
 })()

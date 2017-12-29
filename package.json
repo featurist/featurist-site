@@ -11,7 +11,7 @@
     "css:compress": "postcss -m --use cssnano -r dist/styles.css",
     "svg": "svgstore -o src/images/_icon-sprite.svg -p 'i-' --inline src/images/_svg/*.svg",
     "build": "yarn svg && yarn js && harp compile src dist && yarn css:compress && yarn js:compress && yarn html && yarn images && yarn workbox",
-    "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js > src/js/plugins.js",
+    "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js node_modules/lozad/dist/lozad.js > src/js/plugins.js",
     "js:compress": "uglifyjs dist/js/main.js -o dist/js/main.js -cm && uglifyjs dist/js/plugins.js -o dist/js/plugins.js -cm",
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
     "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
@@ -23,6 +23,7 @@
   "repository": "featurist:featurist-site",
   "dependencies": {
     "headroom.js": "^0.9.4",
+    "lozad": "^1.0.9",
     "scrolltrigger-classes": "^0.3.6",
     "suitcss-base": "^4.0.0",
     "suitcss-components-button": "^6.0.2",

@@ -22,7 +22,8 @@
   <ul class="GalleryBar GalleryBar--narrow">
     <% for (var image in gallery) { %>
       <li class="GalleryBar-item">
-        <img src="images/<%= gallery[image].src %>"
+        <img class="js-lazyload"
+             data-src="images/<%= gallery[image].src %>"
              alt="<%= gallery[image].alt %>"
              width="<%= gallery[image].width %>"
              height="<%= gallery[image].height %>">
