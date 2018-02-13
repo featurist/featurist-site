@@ -159,6 +159,10 @@ const fileManifest = [
     "revision": "c9610689f074e29a6b75a4449eecd6b7"
   },
   {
+    "url": "images/icon-sprite.svg",
+    "revision": "677433a0892aaed7b7d2628c313c9775"
+  },
+  {
     "url": "images/project-logos/browser-monkey.png",
     "revision": "624f347fb2f9a57fffb7afe375ca900f"
   },
@@ -216,7 +220,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "97b54ab495d8d524a9a17504941e7096"
+    "revision": "905cdfa12ae1121592909c0451f92ff2"
   },
   {
     "url": "js/main.js",
