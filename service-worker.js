@@ -187,6 +187,14 @@ const fileManifest = [
     "revision": "a7b8d1d60752191e3a3b3cf6a1277102"
   },
   {
+    "url": "images/team-avatars/alex.png",
+    "revision": "56d3f9791bc68109c01aea12a5e7da69"
+  },
+  {
+    "url": "images/team-avatars/andrei.jpg",
+    "revision": "71b833611fdc0e18e1663b2b527a33d6"
+  },
+  {
     "url": "images/team-avatars/artem.jpg",
     "revision": "08c42e61c121b013fecc87d871e2c705"
   },
@@ -220,7 +228,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "905cdfa12ae1121592909c0451f92ff2"
+    "revision": "06242b462548a77a1dac7b4eedc9eadf"
   },
   {
     "url": "js/main.js",
