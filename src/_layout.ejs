@@ -74,7 +74,8 @@
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
     <script>
-      if ('serviceWorker' in navigator) {
+      var isLocalhost = Boolean(window.location.hostname === 'localhost')
+      if (!isLocalhost && 'serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js')
       }
     </script>
