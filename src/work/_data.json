@@ -2,10 +2,12 @@
   "index": {
     "title": "Our Work",
     "tagline": "Featurist",
-    "description": "We've built mobile and web apps for startups through to large enterprises. Here are some examples of our work.",
+    "description":
+      "We've built mobile and web apps for startups through to large enterprises. Here are some examples of our work.",
     "openGraph": {
       "title": "Our Work",
-      "description": "We've built mobile and web apps for startups through to large enterprises, and worked with established companies to transform legacy systems. Read about our past clients to get a better idea of how we work.",
+      "description":
+        "We've built mobile and web apps for startups through to large enterprises, and worked with established companies to transform legacy systems. Read about our past clients to get a better idea of how we work.",
       "image": "https://www.featurist.co.uk/images/tile.png"
     }
   },

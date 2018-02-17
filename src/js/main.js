@@ -25,9 +25,7 @@
   // https://github.com/terwanerik/ScrollTrigger
   if (window.matchMedia('(min-width: 768px)').matches) {
     document.addEventListener('DOMContentLoaded', function() {
-      new ScrollTrigger({
-        once: true
-      })
+      var trigger = new ScrollTrigger() // eslint-disable-line
     })
   }
 

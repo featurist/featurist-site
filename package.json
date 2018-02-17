@@ -16,7 +16,7 @@
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
     "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
     "workbox": "workbox generate:sw",
-    "format": "prettier 'src/**/*.js' --write; stylelint 'src/_css/**/*.css' --fix",
+    "format": "prettier '**/*.{js,json,md}' --write; eslint '**/*.js' --fix; stylelint 'src/_css/**/*.css' --fix",
     "start": "harp server src --port ${PORT:-3000} & yarn css:watch",
     "deploy": "yarn build && gh-pages -d dist -b gh-pages"
   },
@@ -34,7 +34,9 @@
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "cssnano": "^3.10.0",
+    "eslint": "^4.18.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-config-xo": "^0.20.1",
     "eslint-plugin-prettier": "^2.6.0",
     "gh-pages": "^1.1.0",
     "harp": "^0.25.0",
@@ -82,8 +84,12 @@
     "properties-order": "alphabetical"
   },
   "lint-staged": {
-    "*.{js,md}": [
+    "*.{js,json,md}": [
       "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
       "git add"
     ],
     "*.css": [

@@ -2,10 +2,12 @@
   "globals": {
     "title": "Featurist",
     "tagline": "Full stack, feature driven development teams",
-    "description": "Featurist provides high quality development, training and software for your company.",
+    "description":
+      "Featurist provides high quality development, training and software for your company.",
     "openGraph": {
       "title": "Featurist - Full stack, feature driven development teams",
-      "description": "We build mobile and web apps for startups through to large enterprises, work with established companies to transform legacy systems and make open source tools to aid our work and contribute to the community.",
+      "description":
+        "We build mobile and web apps for startups through to large enterprises, work with established companies to transform legacy systems and make open source tools to aid our work and contribute to the community.",
       "image": "https://www.featurist.co.uk/images/tile.png"
     },
     "mailChimpUserId": "66ec291cda516ce71caea874a"

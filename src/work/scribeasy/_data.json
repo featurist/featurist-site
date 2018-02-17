@@ -5,7 +5,8 @@
     "description": "Childrens Creative Writing App",
     "openGraph": {
       "title": "Scribeasy",
-      "description": "Featurist developed a comprehensive creative writing app for children that helps with inspiration and enables broader ideas.",
+      "description":
+        "Featurist developed a comprehensive creative writing app for children that helps with inspiration and enables broader ideas.",
       "image": "/images/client-logos/scribeasy.png"
     },
     "cta": {

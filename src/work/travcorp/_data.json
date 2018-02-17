@@ -5,7 +5,8 @@
     "description": "Online Booking Engine and API",
     "openGraph": {
       "title": "The Travel Corporation",
-      "description": "Rebuilding legacy back-end and B2C systems into modern, well tested responsive websites.",
+      "description":
+        "Rebuilding legacy back-end and B2C systems into modern, well tested responsive websites.",
       "image": "/images/client-logos/travcorp.png"
     },
     "site": {

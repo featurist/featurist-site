@@ -5,7 +5,8 @@
     "description": "Food Delivery iOS App",
     "openGraph": {
       "title": "Farmdrop",
-      "description": "Featurist developed an iOS app for this local produce and organic food delivery business.",
+      "description":
+        "Featurist developed an iOS app for this local produce and organic food delivery business.",
       "image": "/images/client-logos/farmdrop.png"
     },
     "cta": {

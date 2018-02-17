@@ -5,12 +5,14 @@
     "description": "iOS app MVP",
     "openGraph": {
       "title": "Snoozle",
-      "description": "Snoozle is a fun new way to make the first minute of every day better, by changing the way you and your friends wake up.",
+      "description":
+        "Snoozle is a fun new way to make the first minute of every day better, by changing the way you and your friends wake up.",
       "image": "/images/client-logos/snoozle.png"
     },
     "cta": {
       "label": "View on App Store >",
-      "url": "https://itunes.apple.com/us/app/snoozle-the-social-alarm-clock/id986743853"
+      "url":
+        "https://itunes.apple.com/us/app/snoozle-the-social-alarm-clock/id986743853"
     },
     "site": {
       "label": "www.snoozleapp.com",

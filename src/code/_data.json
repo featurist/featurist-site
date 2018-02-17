@@ -2,10 +2,12 @@
   "index": {
     "title": "Our Code",
     "tagline": "Featurist",
-    "description": "We are passionate about contributing to the open-source community. Check out some of our projects.",
+    "description":
+      "We are passionate about contributing to the open-source community. Check out some of our projects.",
     "openGraph": {
       "title": "Our Open-source Projects",
-      "description": "We are passionate about contributing to the open-source community. Check out some of our projects.",
+      "description":
+        "We are passionate about contributing to the open-source community. Check out some of our projects.",
       "image": "https://www.featurist.co.uk/images/tile.png"
     }
   },

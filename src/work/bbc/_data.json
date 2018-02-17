@@ -5,7 +5,8 @@
     "description": "Coaching and Development",
     "openGraph": {
       "title": "BBC",
-      "description": "Featurist has provided coaching to various teams at the BBC to lead them through adoption of Behaviour Driven Development.",
+      "description":
+        "Featurist has provided coaching to various teams at the BBC to lead them through adoption of Behaviour Driven Development.",
       "image": "/images/client-logos/bbc.png"
     },
     "gallery": [

@@ -5,7 +5,8 @@
     "description": "iOS and web app MVP",
     "openGraph": {
       "title": "The Pigeonhole",
-      "description": "The Pigeonhole is transforming the way in which readers, writers and great books interact.",
+      "description":
+        "The Pigeonhole is transforming the way in which readers, writers and great books interact.",
       "image": "/images/client-logos/the-pigeonhole.png"
     },
     "cta": {
@@ -17,7 +18,8 @@
       "url": "https://thepigeonhole.com/"
     },
     "quote": {
-      "text": "Featurist have been our key partner taking the Pigeonhole from a design concept, through beta to the full product launch. User feedback on both the technical architecture and the user experience has been excellent - and I could not recommend them enough.",
+      "text":
+        "Featurist have been our key partner taking the Pigeonhole from a design concept, through beta to the full product launch. User feedback on both the technical architecture and the user experience has been excellent - and I could not recommend them enough.",
       "author": "Jacob Cockroft, The Pigeonhole / CEO"
     },
     "gallery": [

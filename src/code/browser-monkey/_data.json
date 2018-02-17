@@ -5,7 +5,8 @@
     "description": "Reliable DOM testing",
     "openGraph": {
       "title": "Project: Browser Monkey",
-      "description": "DOM assertion library that helps you write reliable, framework agnostic browser tests.",
+      "description":
+        "DOM assertion library that helps you write reliable, framework agnostic browser tests.",
       "image": "/images/project-logos/browser-monkey.png"
     },
     "cta": {

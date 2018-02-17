@@ -1,14 +1,17 @@
 {
-  "extends": [
-    "prettier"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["xo", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": [
       "error",
-      { "singleQuote": true, "semi": false }
-    ]
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ],
+    "no-undef": 0
+  },
+  "env": {
+    "browser": true
   }
 }

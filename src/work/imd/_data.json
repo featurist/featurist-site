@@ -5,7 +5,8 @@
     "description": "Course Material Hybrid App",
     "openGraph": {
       "title": "IMD Business School",
-      "description": "Featurist was chosen by IMD to rebuild their mobile and web platforms for delivery of high quality business course material.",
+      "description":
+        "Featurist was chosen by IMD to rebuild their mobile and web platforms for delivery of high quality business course material.",
       "image": "/images/client-logos/imd.png"
     }
   }

@@ -5,7 +5,8 @@
     "description": "Data store and price comparison engine",
     "openGraph": {
       "title": "Broadband Choices",
-      "description": "Decision Technologies hired Featurist in 2014 to build the product data store and price comparison engine powering their portfolio of consumer websites.",
+      "description":
+        "Decision Technologies hired Featurist in 2014 to build the product data store and price comparison engine powering their portfolio of consumer websites.",
       "image": "/images/client-logos/broadband-choices.png"
     },
     "gallery": [
