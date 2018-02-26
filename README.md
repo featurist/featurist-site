@@ -15,4 +15,3 @@ at https://www.featurist.co.uk/
   [gh-pages](https://github.com/tschaub/gh-pages)
 * `yarn svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon
   sprite with [svgstore](https://github.com/svgstore/svgstore-cli)
-  # hello-world
