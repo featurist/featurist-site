@@ -256,7 +256,7 @@ const fileManifest = [
   },
   {
     "url": "learn/index.html",
-    "revision": "8b0135555e1f6db8a6e9ad54db07b55c"
+    "revision": "ddf7fac26b40ab0523f0bcea6826ec34"
   },
   {
     "url": "styles.css",
