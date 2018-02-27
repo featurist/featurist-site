@@ -80,7 +80,7 @@ const fileManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "d71b2f791a9459b1dbb7e0f1af0f8166"
+    "revision": "533c4ceb6b11a5e3beeeca8ea97fb78f"
   },
   {
     "url": "images/client-logos/7digital.png",
