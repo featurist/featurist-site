@@ -208,7 +208,7 @@ const fileManifest = [
   },
   {
     "url": "images/team-avatars/paul.jpg",
-    "revision": "627858107dbe56c48c67a64c9b64572c"
+    "revision": "071c4517711c846e47f3d6f3784888e2"
   },
   {
     "url": "images/team-avatars/tim.jpg",
