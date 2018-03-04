@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.1.2.js');
+importScripts('workbox-sw.prod.v2.1.3.js');
 
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
@@ -31,12 +31,12 @@ const fileManifest = [
     "revision": "229f09b912ec54301cb20bc61c7a5e14"
   },
   {
-    "url": "careers/images/aa_de_retreat.jpg",
-    "revision": "29ffc0ac1ba34985ad87df4b96858289"
+    "url": "careers/images/featurists-discussing.jpg",
+    "revision": "ca8b974becd498e098e4e56e7fcc9da3"
   },
   {
     "url": "careers/index.html",
-    "revision": "5383e6ad1cc3c5c53ed8a890d12b30a4"
+    "revision": "695f85f515f7bf934300b13dcabb8a42"
   },
   {
     "url": "code/browser-monkey/images/monkey.png",
@@ -80,7 +80,7 @@ const fileManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "533c4ceb6b11a5e3beeeca8ea97fb78f"
+    "revision": "02a632d1e550e281a6d3b3adf4b758df"
   },
   {
     "url": "images/client-logos/7digital.png",
@@ -187,12 +187,12 @@ const fileManifest = [
     "revision": "a7b8d1d60752191e3a3b3cf6a1277102"
   },
   {
-    "url": "images/team-avatars/alex.png",
-    "revision": "56d3f9791bc68109c01aea12a5e7da69"
+    "url": "images/team-avatars/alex.jpg",
+    "revision": "97241a4b10e478254f7d1dd4a89d1b5f"
   },
   {
     "url": "images/team-avatars/andrei.jpg",
-    "revision": "71b833611fdc0e18e1663b2b527a33d6"
+    "revision": "28dd09d5e2e9bccb74eaa2753002c283"
   },
   {
     "url": "images/team-avatars/artem.jpg",
@@ -208,7 +208,7 @@ const fileManifest = [
   },
   {
     "url": "images/team-avatars/paul.jpg",
-    "revision": "071c4517711c846e47f3d6f3784888e2"
+    "revision": "f897042de4e4d54e2e38f48b2f374cd4"
   },
   {
     "url": "images/team-avatars/tim.jpg",
@@ -228,15 +228,15 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e3fde233d391e077f1187e54552619cf"
+    "revision": "cd46838f8a849d81e711288c375f359b"
   },
   {
     "url": "js/main.js",
-    "revision": "bba0f6ebd8533fc09dd46960e459b340"
+    "revision": "9220b60b32955a3370a635ba088694f9"
   },
   {
     "url": "js/plugins.js",
-    "revision": "2cb9b4e3e2bad8e7f13eb79880ac5c50"
+    "revision": "53df5834b2741350f8aa7960fdb1d438"
   },
   {
     "url": "learn/full-stack-apps/index.html",
@@ -260,7 +260,7 @@ const fileManifest = [
   },
   {
     "url": "styles.css",
-    "revision": "831e338f2dfc63e2e163e568dc4cf63a"
+    "revision": "7a7babe392345da81f7cc7d55d300659"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
@@ -344,7 +344,7 @@ const fileManifest = [
   },
   {
     "url": "work/scribeasy/images/scribeasy-logo.png",
-    "revision": "95f23df6f0353408e7ac893c1fc0eb1a"
+    "revision": "db27825664c0456bcd847ef65d27d1cf"
   },
   {
     "url": "work/scribeasy/index.html",
@@ -364,11 +364,11 @@ const fileManifest = [
   },
   {
     "url": "work/snoozle/images/screenshot.png",
-    "revision": "4d458106df607664f051e8882bb15216"
+    "revision": "89ae56195b03f87ab148003e387f2420"
   },
   {
     "url": "work/snoozle/images/splash.jpg",
-    "revision": "1c2d6c027e578a31cce8202d96abe3b3"
+    "revision": "1e9da770998f25c5489b0bf25802fa9d"
   },
   {
     "url": "work/snoozle/index.html",
