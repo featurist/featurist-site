@@ -5,9 +5,9 @@ at https://www.featurist.co.uk/
 
 ## Quick Start
 
-1. `yarn`
-2. `yarn start`
-3. Open [http://localhost:3000/](http://localhost:3000/)
+1.  `yarn`
+2.  `yarn start`
+3.  Open [http://localhost:3000/](http://localhost:3000/)
 
 ## Useful Scripts
 

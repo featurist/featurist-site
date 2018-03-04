@@ -8,12 +8,12 @@ Fast and comprehensive tests are the cornerstone of continuous delivery, getting
 
 ## Programme
 
-1. We build a simple web application containing some deliberately nasty (shall we say, realistic?) testing scenarios, like SQL, external web services, caching and client-side routing.
-2. We introduce Browser Monkey, a framework that tests your UX quickly and reliably.
-3. We integration test the entire application, front and back, with electron-mocha.
-4. We see how we can test SQL queries by setting up a database with Sworm
-5. We introduce the concept of test adapters to test both cached and non-cached scenarios.
-6. We show how easy it is to mock web services with Node.js
+1.  We build a simple web application containing some deliberately nasty (shall we say, realistic?) testing scenarios, like SQL, external web services, caching and client-side routing.
+2.  We introduce Browser Monkey, a framework that tests your UX quickly and reliably.
+3.  We integration test the entire application, front and back, with electron-mocha.
+4.  We see how we can test SQL queries by setting up a database with Sworm
+5.  We introduce the concept of test adapters to test both cached and non-cached scenarios.
+6.  We show how easy it is to mock web services with Node.js
 
 ## Audience
 
