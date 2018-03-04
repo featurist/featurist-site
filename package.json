@@ -4,13 +4,14 @@
   "version": "2.0.0",
   "description": "Static Featurist Ltd site.",
   "scripts": {
-    "postinstall": "yarn css && yarn js && yarn svg",
+    "postinstall": "yarn build",
     "precommit": "lint-staged",
     "css": "postcss src/_css/styles.css -o src/styles.css",
     "css:watch": "yarn css -w",
     "css:compress": "postcss -m --use cssnano -r dist/styles.css",
     "svg": "svgstore -o src/images/_icon-sprite.svg -p 'i-' --inline src/images/_svg/*.svg",
-    "build": "yarn svg && yarn js && harp compile src dist && yarn css:compress && yarn js:compress && yarn html && yarn images && yarn workbox",
+    "build": "yarn svg && yarn js && yarn css",
+    "build-production": "yarn build && harp compile src dist && yarn css:compress && yarn js:compress && yarn html && yarn images && yarn workbox",
     "js": "cat node_modules/headroom.js/dist/headroom.js node_modules/scrolltrigger-classes/ScrollTrigger.js node_modules/lozad/dist/lozad.js > src/js/plugins.js",
     "js:compress": "uglifyjs dist/js/main.js -o dist/js/main.js -cm && uglifyjs dist/js/plugins.js -o dist/js/plugins.js -cm",
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
@@ -18,7 +19,7 @@
     "workbox": "workbox generate:sw",
     "format": "prettier '**/*.{js,json,md}' --write; eslint '**/*.js' --fix; stylelint 'src/_css/**/*.css' --fix",
     "start": "harp server src --port ${PORT:-3000} & yarn css:watch",
-    "deploy": "yarn build && gh-pages -d dist -b gh-pages"
+    "deploy": "yarn build-production && gh-pages -d dist -b gh-pages"
   },
   "repository": "featurist:featurist-site",
   "dependencies": {
