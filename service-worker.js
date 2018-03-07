@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.1.2.js');
+importScripts('workbox-sw.prod.v2.1.3.js');
 
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
@@ -48,23 +48,23 @@ const fileManifest = [
   },
   {
     "url": "code/browser-monkey/index.html",
-    "revision": "2c92149369c93615000be432475d129d"
+    "revision": "838a771258f27958bc5dc328791f621f"
   },
   {
     "url": "code/coypu/index.html",
-    "revision": "1f01772f8508e7877477b3396eeb477b"
+    "revision": "3458957a55cac5a5c06ef7a8e4199a24"
   },
   {
     "url": "code/cucumber-electron/index.html",
-    "revision": "64e68d38e3bb1e85c455b5ffe05203c0"
+    "revision": "210124ed13cf0b5251ad9ceec15c06d9"
   },
   {
     "url": "code/httpism/index.html",
-    "revision": "cc176c5c9b942292646b299e8ed56a08"
+    "revision": "7043aaa9d55fe5921f2d5b236a6d1f76"
   },
   {
     "url": "code/hyperdom/index.html",
-    "revision": "d4d9fa7cc5ae38582662f3899369e8a2"
+    "revision": "a6d9d3684385aa67b84412afec690331"
   },
   {
     "url": "code/index.html",
@@ -72,11 +72,11 @@ const fileManifest = [
   },
   {
     "url": "code/sworm/index.html",
-    "revision": "37ddfa0781894e4cbcf5d5fda1d042fd"
+    "revision": "f9eccf31eb1caafaa09ade0caa8d0306"
   },
   {
     "url": "code/vinehill/index.html",
-    "revision": "7ca46b754d600241abbb40e5132ae6fd"
+    "revision": "fef06e67a903d3346b2a1e2a1b9412b9"
   },
   {
     "url": "contact/index.html",
@@ -232,19 +232,19 @@ const fileManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "bba0f6ebd8533fc09dd46960e459b340"
+    "revision": "9220b60b32955a3370a635ba088694f9"
   },
   {
     "url": "js/plugins.js",
-    "revision": "b57b5427845a12e4d367d2d7f3f2439c"
+    "revision": "53df5834b2741350f8aa7960fdb1d438"
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "6feb5fac76e918618c476e7162766ec4"
+    "revision": "dd5437f72b84647aa9f54ae0acf8916d"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "cdb3eebd3a655a4f65ddb8fa891df3cc"
+    "revision": "018345e0e0e1c1f70a001500a98e4f48"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -252,7 +252,7 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "d027924a812af91c9d3700b440fd3bbb"
+    "revision": "d2dd13ab33a486b871b47eca16048649"
   },
   {
     "url": "learn/index.html",
@@ -260,7 +260,7 @@ const fileManifest = [
   },
   {
     "url": "styles.css",
-    "revision": "831e338f2dfc63e2e163e568dc4cf63a"
+    "revision": "7a7babe392345da81f7cc7d55d300659"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
