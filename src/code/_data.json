@@ -18,6 +18,9 @@
     "browser-monkey": {
       "title": "Browser Monkey"
     },
+    "shipping-report": {
+      "title": "Shipping Report"
+    },
     "httpism": {
       "title": "httpism"
     },
