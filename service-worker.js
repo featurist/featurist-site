@@ -236,7 +236,7 @@ const fileManifest = [
   },
   {
     "url": "js/plugins.js",
-    "revision": "53df5834b2741350f8aa7960fdb1d438"
+    "revision": "be48f904542fff8c91566f58cba1f46b"
   },
   {
     "url": "learn/full-stack-apps/index.html",
@@ -364,7 +364,7 @@ const fileManifest = [
   },
   {
     "url": "work/snoozle/images/screenshot.png",
-    "revision": "89ae56195b03f87ab148003e387f2420"
+    "revision": "401785bf133c7027cfb045cb3bf9ddbb"
   },
   {
     "url": "work/snoozle/images/splash.jpg",
