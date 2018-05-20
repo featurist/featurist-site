@@ -68,7 +68,19 @@ const fileManifest = [
   },
   {
     "url": "code/index.html",
-    "revision": "2dc4aacef11b9c0d041ee05378ce36d3"
+    "revision": "abf3de2735801d096c0f5cf3eba975a5"
+  },
+  {
+    "url": "code/shipping-report/images/shipping-report-logo.png",
+    "revision": "b7dd7ae23d6f350b741b1fde26f058c3"
+  },
+  {
+    "url": "code/shipping-report/images/shipping-report-screenshot.png",
+    "revision": "e0dd07dafe743a77e98e9858c7d4d020"
+  },
+  {
+    "url": "code/shipping-report/index.html",
+    "revision": "ccf7142a4aa40c78ee8c47986254c68b"
   },
   {
     "url": "code/sworm/index.html",
