@@ -1,0 +1,31 @@
+{
+  "index": {
+    "title": "Shipping Report",
+    "tagline": "Code - Featurist",
+    "description":
+      "Communicate project progress from developer activity with just a few clicks.",
+    "openGraph": {
+      "title": "Project: Shipping Report",
+      "description":
+        "Shipping Report allows you to share a curated list of your code repository's changes, to share with stakeholders and others."
+    },
+    "cta": {
+      "label": "View App >",
+      "url": "https://shippingreport.com/"
+    },
+    "gallery": [
+      {
+        "src": "shipping-report-logo.png",
+        "alt": "Shipping Report logo",
+        "width": "900",
+        "height": "800"
+      },
+      {
+        "src": "shipping-report-screenshot.png",
+        "alt": "Shipping Report screenshot",
+        "width": "900",
+        "height": "800"
+      }
+    ]
+  }
+}
