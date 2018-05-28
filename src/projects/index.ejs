@@ -9,8 +9,8 @@
 
 <div class="Container">
   <ul class="MediaHeroList">
-    <% for (var slug in public.code._data.projects) {
-      var project = public.code._data.projects[slug]
+    <% for (var slug in public.projects._data.projects) {
+      var project = public.projects._data.projects[slug]
     %>
       <li class="MediaHeroList-item">
         <figure class="MediaHero MediaHero--inverted">
@@ -27,7 +27,7 @@
             <figcaption>
               <h3 class="MediaHero-title"><%= project.title %></h3>
               <p class="MediaHero-description">
-                <%= public.code[slug]._data.index.openGraph.description %>
+                <%= public.projects[slug]._data.index.openGraph.description %>
               </p>
             </figcaption>
           </a>
