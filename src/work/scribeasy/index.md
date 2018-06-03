@@ -2,6 +2,6 @@
 
 Featurist first worked with Artsmiths Ltd to develop an iPad app in [Ruby Motion](http://www.rubymotion.com/) and [Ruby on Rails](http://rubyonrails.org/).
 
-We then developed a cross platform Node.js app using Express and our own [hyperdom](../../code/hyperdom/).
+We then developed a cross platform Node.js app using Express and our own [hyperdom](../../projects/hyperdom/).
 
 This new version is feature rich and supports management of assets, users and content, and accommodates different types of users to cover all use cases.

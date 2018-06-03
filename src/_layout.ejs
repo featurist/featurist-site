@@ -25,7 +25,7 @@
     <main class="Site-content">
       <% if (current.path[0] == "work" && current.path[1] !== 'index') { %>
         <%- partial(current.path[0] + "/_case-study") %>
-      <% } else if (current.path[0] == "code" && current.path[1] !== 'index') { %>
+      <% } else if (current.path[0] == "projects" && current.path[1] !== 'index') { %>
         <%- partial(current.path[0] + "/_project") %>
       <% } else if (current.path[0] == "learn" && current.path[1] !== 'index') { %>
         <%- partial(current.path[0] + "/_event") %>
@@ -60,7 +60,7 @@
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjZz_O9z2biZTXghg2IBNS5zPeF7EL6GY&callback=initMap"></script>
     <% } %>
 
-    <% if ((current.path[0] === "learn" || current.path[0] === "code") && current.path[1] !== 'index') { %>
+    <% if ((current.path[0] === "learn" || current.path[0] === "projects") && current.path[1] !== 'index') { %>
       <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
       <script>
         (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FIRSTNAME';ftypes[1]='text';fnames[2]='LASTNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);

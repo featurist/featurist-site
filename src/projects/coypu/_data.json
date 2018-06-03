@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Coypu",
-    "tagline": "Code - Featurist",
+    "tagline": "Projects - Featurist",
     "description":
       "Coypu supports browser automation in .Net to help make tests readable, robust, fast to write and less tightly coupled to the UI.",
     "openGraph": {

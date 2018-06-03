@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Vine Hill",
-    "tagline": "Code - Featurist",
+    "tagline": "Projects - Featurist",
     "description": "Virtual HTTP adapter to allow in process XHR",
     "openGraph": {
       "title": "Project: Vine Hill",

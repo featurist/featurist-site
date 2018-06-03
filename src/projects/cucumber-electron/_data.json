@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "cucumber-electron",
-    "tagline": "Code - Featurist",
+    "tagline": "Projects - Featurist",
     "description": "cucumber-js in an electron renderer process",
     "openGraph": {
       "title": "Project: cucumber-electron",
