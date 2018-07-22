@@ -1,19 +1,27 @@
 /** @define SiteHeader; weak */
 
 .SiteHeader {
+  background-color: color(var(--color-brand-primary) a(90%));
   flex: none;
+  left: 0;
+  overflow: hidden;
   padding: 12px 10px 6px;
-  text-align: center;
+  position: fixed;
+  size: 100% 55px;
+  top: 0;
   transition: all var(--transition-duration);
+  transition: height 0.2s ease-out;
+  z-index: 1;
 
-  &.is-notTop {
-    background-color: color(var(--color-brand-primary) a(80%));
+  &.is-scrolled {
     box-shadow: 1px 1px 2px color(#000 a(20%));
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+  }
+
+  &.is-expanded {
+
+    @media (--md-viewport-max) {
+      height: 100%;
+    }
   }
 
   a {
@@ -21,9 +29,20 @@
   }
 
   @media (--sm-viewport-min) {
+    height: 84px;
     padding: 20px 20px 15px;
-    text-align: left;
   }
+
+  @media (--md-viewport-min) {
+    height: 95px;
+  }
+}
+
+.SiteHeader-inner {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .SiteHeader-logo {
@@ -32,6 +51,14 @@
 
   &:hover {
     color: var(--color-brand-secondary);
+  }
+}
+
+.SiteHeader-hamburger {
+  margin-bottom: 5px;
+
+  @media (--md-viewport-min) {
+    display: none;
   }
 }
 

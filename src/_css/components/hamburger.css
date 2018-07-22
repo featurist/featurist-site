@@ -1,0 +1,39 @@
+/** @define Hamburger */
+
+.Hamburger {
+  cursor: pointer;
+  size: 30px;
+
+  &:hover .Hamburger-line {
+    background-color: var(--color-brand-secondary);
+  }
+
+  &.is-active .Hamburger-line {
+
+    &:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    &:nth-child(2) {
+      display: none;
+    }
+
+    &:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+}
+
+.Hamburger-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.Hamburger-line {
+  background-color: var(--color-text);
+  border-radius: 1px;
+  height: 3px;
+  transition: all var(--transition-duration);
+}

@@ -9,6 +9,15 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding-top: 55px;
+
+  @media (--sm-viewport-min) {
+    padding-top: 84px;
+  }
+
+  @media (--md-viewport-min) {
+    padding-top: 95px;
+  }
 }
 
 .Site-content {

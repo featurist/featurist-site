@@ -1,25 +1,23 @@
 ;(function() {
-  // Headroom.js
-  // https://github.com/WickyNilliams/headroom.js
-  var siteHeader = document.querySelector('.SiteHeader')
-  var headroom = new Headroom(siteHeader, {
-    classes: {
-      initial: 'SiteHeader',
-      pinned: 'is-pinned',
-      unpinned: 'is-unpinned',
-      top: 'is-top',
-      notTop: 'is-notTop',
-      bottom: 'is-bottom',
-      notBottom: 'is-notBottom'
-    },
-    onTop: function() {
-      document.body.style.paddingTop = '0'
-    },
-    onNotTop: function() {
-      document.body.style.paddingTop = siteHeader.offsetHeight + 'px'
-    }
+  // Header expand toggle
+  var siteHeader = document.querySelector('.js-site-header')
+  var expandToggle = document.querySelector('.js-expand-toggle')
+  expandToggle.addEventListener('click', function() {
+    siteHeader.classList.toggle('is-expanded')
+    expandToggle.classList.toggle('is-active')
   })
-  headroom.init()
+
+  // Header shadow on scroll
+  window.addEventListener(
+    'scroll',
+    debounce(function() {
+      if (window.scrollY > 0) {
+        siteHeader.classList.add('is-scrolled')
+      } else {
+        siteHeader.classList.remove('is-scrolled')
+      }
+    }, 250)
+  )
 
   // ScrollTrigger
   // https://github.com/terwanerik/ScrollTrigger
@@ -29,6 +27,7 @@
     })
   }
 
+  // Scroll to element
   var pageJumpAnchor = document.querySelector('.js-page-jump')
   if (pageJumpAnchor) {
     var pageJumpId = pageJumpAnchor.hash.substring(1)
@@ -47,4 +46,18 @@
   // https://github.com/ApoorvSaxena/lozad.js
   var observer = lozad('.js-lazyload')
   observer.observe()
+
+  // Debounce
+  // https://remysharp.com/2010/07/21/throttling-function-calls
+  function debounce(fn, delay) {
+    var timer = null
+    return function() {
+      var context = this
+      var args = arguments
+      clearTimeout(timer)
+      timer = setTimeout(function() {
+        fn.apply(context, args)
+      }, delay)
+    }
+  }
 })()
