@@ -1,27 +1,37 @@
-<header class="SiteHeader">
+<header class="SiteHeader js-site-header">
   <div class="Container">
-    <a href="/" class="SiteHeader-logo">
-      <svg class="SiteHeader-logoIcon"><use xlink:href="#i-featurist" /></svg>
-      <span class="SiteHeader-logoText">Featurist</span>
-    </a>
-    <nav class="SiteNav">
-      <ul class="SiteNav-list">
-        <li class="SiteNav-item<%= current.path[0] == 'index' ? ' is-current' : '' %>">
-          <a href="/">Home</a>
-        </li>
-        <li class="SiteNav-item<%= current.path[0] == 'about' ? ' is-current' : '' %>">
-          <a href="/about/">About</a>
-        </li>
-        <li class="SiteNav-item<%= current.path[0] == 'work' ? ' is-current' : '' %>">
-          <a href="/work/">Work</a>
-        </li>
-        <li class="SiteNav-item<%= current.path[0] == 'projects' ? ' is-current' : '' %>">
-          <a href="/projects/">Projects</a>
-        </li>
-        <li class="SiteNav-item<%= current.path[0] == 'learn' ? ' is-current' : '' %>">
-          <a href="/learn/">Learn</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="SiteHeader-inner">
+      <a href="/" class="SiteHeader-logo">
+        <svg class="SiteHeader-logoIcon"><use xlink:href="#i-featurist" /></svg>
+        <span class="SiteHeader-logoText">Featurist</span>
+      </a>
+      <button type="button" class="Hamburger SiteHeader-hamburger js-expand-toggle" title="Toggle Menu">
+        <span class="u-hiddenVisually">Toggle Menu</span>
+        <div class="Hamburger-inner">
+          <div class="Hamburger-line"></div>
+          <div class="Hamburger-line"></div>
+          <div class="Hamburger-line"></div>
+        </div>
+      </button>
+      <nav class="SiteNav">
+        <ul class="SiteNav-list">
+          <li class="SiteNav-item<%= current.path[0] == 'index' ? ' is-current' : '' %>">
+            <a href="/">Home</a>
+          </li>
+          <li class="SiteNav-item<%= current.path[0] == 'about' ? ' is-current' : '' %>">
+            <a href="/about/">About</a>
+          </li>
+          <li class="SiteNav-item<%= current.path[0] == 'work' ? ' is-current' : '' %>">
+            <a href="/work/">Work</a>
+          </li>
+          <li class="SiteNav-item<%= current.path[0] == 'projects' ? ' is-current' : '' %>">
+            <a href="/projects/">Projects</a>
+          </li>
+          <li class="SiteNav-item<%= current.path[0] == 'learn' ? ' is-current' : '' %>">
+            <a href="/learn/">Learn</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
