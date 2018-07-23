@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.3.js');
 const fileManifest = [
   {
     "url": "404.html",
-    "revision": "d6a2316aa6f0eabc55bb287ee6fe14d9"
+    "revision": "07d843656172885d99b309ee9e88c734"
   },
   {
     "url": "about/images/featurist-team.jpg",
@@ -28,7 +28,7 @@ const fileManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "503987e4ae1a1f5c7c873ea91a6170c4"
+    "revision": "106328d0df6005636f15cb8a66998e2f"
   },
   {
     "url": "careers/images/featurists-discussing.jpg",
@@ -36,11 +36,11 @@ const fileManifest = [
   },
   {
     "url": "careers/index.html",
-    "revision": "d9a72a3b7bdde1b9fdd93dd795b4fdfe"
+    "revision": "803efec0432b2cb729489231b3bdd3a2"
   },
   {
     "url": "contact/index.html",
-    "revision": "ba573bec3bbfa100f8aafcf2bcfefb2d"
+    "revision": "2b153f16efd17ffce245f972b9366b0d"
   },
   {
     "url": "images/client-logos/7digital.png",
@@ -188,23 +188,23 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4af28cec69ebf932b27d7d30fa85c27f"
+    "revision": "c5d3443d0b009f768e4e3e048057f59d"
   },
   {
     "url": "js/main.js",
-    "revision": "9220b60b32955a3370a635ba088694f9"
+    "revision": "5e0923e0cee9337ac8cdefaed4680f69"
   },
   {
     "url": "js/plugins.js",
-    "revision": "be48f904542fff8c91566f58cba1f46b"
+    "revision": "402e5518a80a36be1aa9a9686c7f8043"
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "07379423db94b682fb984f044b246f9b"
+    "revision": "f260fadd06d4645f6ef94a027e991414"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "d09d86858ad1bdf59ca013313c92c4c9"
+    "revision": "5261c132639bb07b44eec0fa798246e4"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -212,11 +212,11 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "1b5069bf9e25773bb3f6f00f702b1ea5"
+    "revision": "bee6b73228cd1bf6c23889040ff5f2ba"
   },
   {
     "url": "learn/index.html",
-    "revision": "abdf650b97626d85d66ffb9db146c165"
+    "revision": "588fb6edeac0247770697d4847a2ad27"
   },
   {
     "url": "projects/browser-monkey/images/monkey.png",
@@ -228,27 +228,27 @@ const fileManifest = [
   },
   {
     "url": "projects/browser-monkey/index.html",
-    "revision": "95dcc354c6e2a9069ad102e346b5cfdf"
+    "revision": "d4e5515b6b7a7b958e88d43fabf346f0"
   },
   {
     "url": "projects/coypu/index.html",
-    "revision": "dbf9df6d5776a1ebcefaa7b45b1b179f"
+    "revision": "924a73c3a491b55788857bf44e88852e"
   },
   {
     "url": "projects/cucumber-electron/index.html",
-    "revision": "25b07800616877734dfd3fb5f9ce2a3d"
+    "revision": "5b8409712190ec096f6c86d92f5b0c60"
   },
   {
     "url": "projects/httpism/index.html",
-    "revision": "37629b150b26f3da637de84c1d87717b"
+    "revision": "dff2ab1454fb849fcbf605baba1f8077"
   },
   {
     "url": "projects/hyperdom/index.html",
-    "revision": "8fcd9deea12b9bf014eb70bfbc0bf47c"
+    "revision": "4b5bdbfc24624a7f07d2b3f4bed5d9b2"
   },
   {
     "url": "projects/index.html",
-    "revision": "858e15a01ea5fffd56153f39b88a9421"
+    "revision": "5c75889875bbd36ebdd36ecab5e25239"
   },
   {
     "url": "projects/shipping-report/images/shipping-report-logo.png",
@@ -260,19 +260,19 @@ const fileManifest = [
   },
   {
     "url": "projects/shipping-report/index.html",
-    "revision": "80c427e45465cf8ba94092a8b25c69f7"
+    "revision": "43a417ff3e5477f1d24576f426a47d27"
   },
   {
     "url": "projects/sworm/index.html",
-    "revision": "7cb689d3d732af51818de2a77bca1fd5"
+    "revision": "f8c224ce21cb28f196612baf1629933b"
   },
   {
     "url": "projects/vinehill/index.html",
-    "revision": "cb141045afe1c5a5af63f366cafa1c4c"
+    "revision": "f519513ce659c51df1c9e73b4f78fa11"
   },
   {
     "url": "styles.css",
-    "revision": "7a7babe392345da81f7cc7d55d300659"
+    "revision": "5bf42c0a10c9961a9703e08372c06e71"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
@@ -284,7 +284,7 @@ const fileManifest = [
   },
   {
     "url": "work/7digital/index.html",
-    "revision": "c0ae92dafe2d7edbfc4cb207124ea4c1"
+    "revision": "a478913e48be9e6620b4c0ef8bc256cc"
   },
   {
     "url": "work/bbc/images/bbc2.png",
@@ -292,7 +292,7 @@ const fileManifest = [
   },
   {
     "url": "work/bbc/index.html",
-    "revision": "d998b1280536977812241c7f94226c51"
+    "revision": "7ec1d7ba3219d1c278e982efb362dad1"
   },
   {
     "url": "work/broadband-choices/images/bc.png",
@@ -304,7 +304,7 @@ const fileManifest = [
   },
   {
     "url": "work/broadband-choices/index.html",
-    "revision": "eec47b30afbe6dd94fb2e14756644410"
+    "revision": "7c5cafb3f95d3c006a33290a50fc2c6d"
   },
   {
     "url": "work/camden/images/camden-lock.jpg",
@@ -316,11 +316,11 @@ const fileManifest = [
   },
   {
     "url": "work/camden/index.html",
-    "revision": "ea9bbb0412b6bef7efc8e04768bba56a"
+    "revision": "4ae5ac924d2fcfb8d82a23faf777dd30"
   },
   {
     "url": "work/euromoney/index.html",
-    "revision": "9d9726825bd3b1f00ee0ccec49143e7a"
+    "revision": "692ea9d88ab207b42102fce0ed75508e"
   },
   {
     "url": "work/farmdrop/images/farm1.png",
@@ -332,15 +332,15 @@ const fileManifest = [
   },
   {
     "url": "work/farmdrop/index.html",
-    "revision": "3858ba67673ca5179b1b5fdfa7052328"
+    "revision": "fd75fc1760f0a19fa98f34149c69c2cb"
   },
   {
     "url": "work/imd/index.html",
-    "revision": "632ee4ee608667b68f6f479fc7069ff0"
+    "revision": "a57d3b0d3012b43b3bf4c068e88f5cc7"
   },
   {
     "url": "work/index.html",
-    "revision": "8ef21ea96087c69a3044f5376028ba07"
+    "revision": "501b6274c611c176451a30c97a8abc0f"
   },
   {
     "url": "work/scribeasy/images/classroom.jpg",
@@ -360,7 +360,7 @@ const fileManifest = [
   },
   {
     "url": "work/scribeasy/index.html",
-    "revision": "5eb8d6707e7aed64b4f61631f8979a80"
+    "revision": "38a7af76312679313978609b000520e7"
   },
   {
     "url": "work/shopa/images/shopa1.png",
@@ -372,7 +372,7 @@ const fileManifest = [
   },
   {
     "url": "work/shopa/index.html",
-    "revision": "a5284f8ca3c6662f9a0dae71d125a0c8"
+    "revision": "4f8fed2ed8fb99de5ab1247eee9591ca"
   },
   {
     "url": "work/snoozle/images/screenshot.png",
@@ -384,7 +384,7 @@ const fileManifest = [
   },
   {
     "url": "work/snoozle/index.html",
-    "revision": "22d1b9feff8ae5cd429ada01e1dd5de4"
+    "revision": "81764bd4ac866080a7d4e8318df418ac"
   },
   {
     "url": "work/the-pigeonhole/images/book.png",
@@ -396,7 +396,7 @@ const fileManifest = [
   },
   {
     "url": "work/the-pigeonhole/index.html",
-    "revision": "4d53d1284ee0052393792bffbd4ac8ea"
+    "revision": "9cfc43048f3e431302f8f7ca5625be30"
   },
   {
     "url": "work/travcorp/images/ipad-laptop.jpg",
@@ -412,7 +412,7 @@ const fileManifest = [
   },
   {
     "url": "work/travcorp/index.html",
-    "revision": "9cbf0f439db56f3ea09c39de15854afa"
+    "revision": "32d4bb1c8c0f05ebe294696e87550b7f"
   }
 ];
 
