@@ -17,7 +17,7 @@
     "html": "html-minifier --input-dir=dist --output-dir=dist -c html-minifier.json --file-ext=html",
     "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
     "workbox": "workbox generate:sw",
-    "format": "prettier '**/*.{js,json,md}' --write; eslint '**/*.js' --fix; stylelint 'src/_css/**/*.css' --fix",
+    "lint": "prettier '**/*.{js,json,md}' --write; eslint '**/*.js' --fix; stylelint 'src/_css/**/*.css' --fix",
     "start": "harp server src --port ${PORT:-3000} & yarn css:watch",
     "deploy": "yarn build-production && gh-pages -d dist -b gh-pages"
   },
