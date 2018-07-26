@@ -6,5 +6,5 @@ and sent to non-technical members of the project.
 
 Features include:
 
-* Send customisable automatic reports by emails
-* Get an overview of your repository at a glance, so you're never out of the loop
+- Send customisable automatic reports by emails
+- Get an overview of your repository at a glance, so you're never out of the loop

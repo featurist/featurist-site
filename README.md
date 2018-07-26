@@ -11,7 +11,7 @@ at https://www.featurist.co.uk/
 
 ## Useful Scripts
 
-* `yarn deploy` - Build `/dist` directory, push to `gh-pages` branch with
+- `yarn deploy` - Build `/dist` directory, push to `gh-pages` branch with
   [gh-pages](https://github.com/tschaub/gh-pages)
-* `yarn svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon
+- `yarn svg` - Build SVGs from [`src/images/_svg`](src/images/_svg) into icon
   sprite with [svgstore](https://github.com/svgstore/svgstore-cli)

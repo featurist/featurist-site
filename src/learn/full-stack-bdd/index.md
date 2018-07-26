@@ -10,7 +10,7 @@ Finally he talks briefly about the future of full stack testing as he sees it, c
 
 ## Links
 
-* Listen to or download the [podcast on soundcloud](https://soundcloud.com/cucumber-podcast/cucumber-electron/s-xIqQF)
-* Listen or subscribe to the [podcast on iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635)
-* Check out an [example of all the bits in action](https://github.com/joshski/cucumbers-on-vine-hill)
-* Get a sneak preview of [banana-shark: joshski's synchronous test runner](https://github.com/featurist/banana-shark)
+- Listen to or download the [podcast on soundcloud](https://soundcloud.com/cucumber-podcast/cucumber-electron/s-xIqQF)
+- Listen or subscribe to the [podcast on iTunes](https://itunes.apple.com/gb/podcast/cucumber-podcast-rss/id1078896635)
+- Check out an [example of all the bits in action](https://github.com/joshski/cucumbers-on-vine-hill)
+- Get a sneak preview of [banana-shark: joshski's synchronous test runner](https://github.com/featurist/banana-shark)
