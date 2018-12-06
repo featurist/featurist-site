@@ -14,7 +14,12 @@
     %>
       <li class="MediaHeroList-item">
         <figure class="MediaHero">
-          <a href="<%= slug %>/">
+          <% for (var tech of caseStudy.techUsed) { %>
+            <div class="Ribbon" title="<%= tech.name %>">
+              <svg width="100%" height="50%"><use xlink:href="#i-<%= tech.name %>" /></svg>
+            </div>
+          <% } %>
+          <a href="<%= slug %>">
             <div class="MediaHero-imageWrap">
               <img class="MediaHero-image"
                    src="../images/client-logos/<%= caseStudy.logo.image %>"

@@ -9,6 +9,7 @@
   background-color: #fff;
   border-bottom: 1px solid var(--MediaHero-border-light);
   border-top: @border-bottom;
+  position: relative;
   text-align: center;
   transition: background-color var(--transition-duration) ease-in-out;
 

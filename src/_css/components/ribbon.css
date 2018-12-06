@@ -1,0 +1,31 @@
+/** @define Ribbon; weak */
+
+.Ribbon {
+  background-color: #ededed;
+  height: 26px;
+  left: -9px;
+  position: absolute;
+  top: 20px;
+  width: 80px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+  }
+
+  &::before {
+    border-bottom: 9px solid #b3b2b2;
+    border-left: 9px solid transparent;
+    left: 0.1px;
+    top: -8.5px;
+  }
+
+  &::after {
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #ededed;
+    border-top: 13px solid transparent;
+    right: -10px;
+    top: 0;
+  }
+}
