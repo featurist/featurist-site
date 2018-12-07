@@ -1,12 +1,24 @@
 /** @define Ribbon; weak */
 
-.Ribbon {
-  background-color: #ededed;
-  height: 26px;
-  left: -9px;
+.Ribbon-container {
   position: absolute;
+}
+
+.Ribbon {
+  align-items: center;
+  background-color: #ededed;
+  display: flex;
+  height: 26px;
+  justify-content: center;
+  left: -9px;
+  margin-bottom: 14px;
+  position: relative;
   top: 20px;
-  width: 80px;
+  width: 70px;
+
+  svg {
+    filter: grayscale(100%);
+  }
 
   &::before,
   &::after {

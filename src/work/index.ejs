@@ -14,11 +14,13 @@
     %>
       <li class="MediaHeroList-item">
         <figure class="MediaHero">
-          <% for (var tech of caseStudy.techUsed) { %>
-            <div class="Ribbon" title="<%= tech.name %>">
-              <svg width="100%" height="50%"><use xlink:href="#i-<%= tech.name %>" /></svg>
-            </div>
-          <% } %>
+          <div class="Ribbon-container">
+            <% for (var tech of caseStudy.techUsed) { %>
+              <div class="Ribbon" title="<%= tech.name %>">
+                <svg width="70%" height="80%"><use xlink:href="#i-<%= tech.name %>" /></svg>
+              </div>
+            <% } %>
+          </div>
           <a href="<%= slug %>">
             <div class="MediaHero-imageWrap">
               <img class="MediaHero-image"

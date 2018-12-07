@@ -27,7 +27,11 @@
     },
     "camden": {
       "title": "London Borough of Camden",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "java"
+        }
+      ],
       "logo": {
         "image": "camden.png",
         "width": "100",
@@ -36,7 +40,11 @@
     },
     "bbc": {
       "title": "BBC",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "javascript"
+        }
+      ],
       "logo": {
         "image": "bbc.png",
         "width": "100",
@@ -45,7 +53,20 @@
     },
     "travcorp": {
       "title": "The Travel Corporation",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "kubernetes"
+        },
+        {
+          "name": "aws"
+        }
+      ],
       "logo": {
         "image": "travcorp.png",
         "width": "100",
@@ -54,7 +75,20 @@
     },
     "scribeasy": {
       "title": "Scribeasy",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "ios"
+        },
+        {
+          "name": "rails"
+        },
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "nodejs"
+        }
+      ],
       "logo": {
         "image": "scribeasy.png",
         "width": "100",
@@ -63,7 +97,14 @@
     },
     "the-pigeonhole": {
       "title": "The Pigeonhole",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "ios"
+        },
+        {
+          "name": "rails"
+        }
+      ],
       "logo": {
         "image": "the-pigeonhole.png",
         "width": "100",
@@ -85,7 +126,20 @@
     },
     "imd": {
       "title": "IMD Business School",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "react"
+        },
+        {
+          "name": "angular"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
       "logo": {
         "image": "imd.png",
         "width": "100",
@@ -94,7 +148,14 @@
     },
     "broadband-choices": {
       "title": "Broadband Choices",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "tensorflow"
+        }
+      ],
       "logo": {
         "image": "broadband-choices.png",
         "width": "100",
@@ -103,7 +164,14 @@
     },
     "euromoney": {
       "title": "Euromoney",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "angular"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
       "logo": {
         "image": "euromoney.png",
         "width": "100",
@@ -112,7 +180,11 @@
     },
     "shopa": {
       "title": "Shopa",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "rails"
+        }
+      ],
       "logo": {
         "image": "shopa.png",
         "width": "100",
@@ -121,7 +193,11 @@
     },
     "7digital": {
       "title": "7digital",
-      "techUsed": [],
+      "techUsed": [
+        {
+          "name": "dotnet"
+        }
+      ],
       "logo": {
         "image": "7digital.png",
         "width": "100",
