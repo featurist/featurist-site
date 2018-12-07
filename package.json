@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "description": "Static Featurist Ltd site.",
   "scripts": {
-    "postinstall": "yarn build",
+    "heroku-postbuild": "yarn svg && yarn css && yarn js",
     "precommit": "lint-staged",
     "css": "postcss src/_css/styles.css -o src/styles.css",
     "css:watch": "yarn css -w",
@@ -18,7 +18,8 @@
     "images": "find dist -type d -exec imagemin {}/* --out-dir={} \\;",
     "workbox": "workbox generate:sw",
     "lint": "prettier '**/*.{js,json,md}' --write; eslint '**/*.js' --fix; stylelint 'src/_css/**/*.css' --fix",
-    "start": "harp server src --port ${PORT:-3000} & yarn css:watch",
+    "start": "harp server src --port ${PORT:-3000}",
+    "dev": "yarn start & yarn css:watch",
     "deploy": "yarn build-production && gh-pages -d dist -b gh-pages"
   },
   "repository": "featurist:featurist-site",
