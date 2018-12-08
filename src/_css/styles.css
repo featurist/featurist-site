@@ -33,5 +33,5 @@
 @import "components/site";
 @import "components/social-links";
 @import "components/widget";
-@import "components/ribbon";
+@import "components/badge";
 @import "base/utils";

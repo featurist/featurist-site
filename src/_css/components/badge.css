@@ -1,0 +1,20 @@
+/** @define Badge; weak */
+
+.Badge-container {
+  display: flex;
+  height: 22px;
+  margin-bottom: 10px;
+}
+
+.Badge {
+  margin-left: 10px;
+  width: 44px;
+
+  svg {
+    transition: 100ms ease-in;
+
+    &:not(:hover) {
+      filter: grayscale(100%);
+    }
+  }
+}

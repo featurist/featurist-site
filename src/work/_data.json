@@ -12,45 +12,6 @@
     }
   },
   "clients": {
-    "snoozle": {
-      "title": "Snoozle",
-      "techUsed": [
-        {
-          "name": "ios"
-        }
-      ],
-      "logo": {
-        "image": "snoozle.png",
-        "width": "100",
-        "height": "77"
-      }
-    },
-    "camden": {
-      "title": "London Borough of Camden",
-      "techUsed": [
-        {
-          "name": "java"
-        }
-      ],
-      "logo": {
-        "image": "camden.png",
-        "width": "100",
-        "height": "77"
-      }
-    },
-    "bbc": {
-      "title": "BBC",
-      "techUsed": [
-        {
-          "name": "javascript"
-        }
-      ],
-      "logo": {
-        "image": "bbc.png",
-        "width": "100",
-        "height": "28"
-      }
-    },
     "travcorp": {
       "title": "The Travel Corporation",
       "techUsed": [
@@ -71,6 +32,112 @@
         "image": "travcorp.png",
         "width": "100",
         "height": "101"
+      }
+    },
+    "farmdrop": {
+      "title": "Farmdrop",
+      "techUsed": [
+        {
+          "name": "ios"
+        }
+      ],
+      "logo": {
+        "image": "farmdrop.png",
+        "width": "100",
+        "height": "100"
+      }
+    },
+    "bbc": {
+      "title": "BBC",
+      "techUsed": [
+        {
+          "name": "javascript"
+        }
+      ],
+      "logo": {
+        "image": "bbc.png",
+        "width": "100",
+        "height": "28"
+      }
+    },
+    "broadband-choices": {
+      "title": "Broadband Choices",
+      "techUsed": [
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "tensorflow"
+        }
+      ],
+      "logo": {
+        "image": "broadband-choices.png",
+        "width": "100",
+        "height": "33"
+      }
+    },
+    "euromoney": {
+      "title": "Euromoney",
+      "techUsed": [
+        {
+          "name": "angular"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
+      "logo": {
+        "image": "euromoney.png",
+        "width": "100",
+        "height": "40"
+      }
+    },
+    "camden": {
+      "title": "London Borough of Camden",
+      "techUsed": [
+        {
+          "name": "java"
+        }
+      ],
+      "logo": {
+        "image": "camden.png",
+        "width": "100",
+        "height": "77"
+      }
+    },
+    "imd": {
+      "title": "IMD Business School",
+      "techUsed": [
+        {
+          "name": "react"
+        },
+        {
+          "name": "angular"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
+      "logo": {
+        "image": "imd.png",
+        "width": "100",
+        "height": "80"
+      }
+    },
+    "snoozle": {
+      "title": "Snoozle",
+      "techUsed": [
+        {
+          "name": "ios"
+        }
+      ],
+      "logo": {
+        "image": "snoozle.png",
+        "width": "100",
+        "height": "77"
       }
     },
     "scribeasy": {
@@ -109,73 +176,6 @@
         "image": "the-pigeonhole.png",
         "width": "100",
         "height": "23"
-      }
-    },
-    "farmdrop": {
-      "title": "Farmdrop",
-      "techUsed": [
-        {
-          "name": "ios"
-        }
-      ],
-      "logo": {
-        "image": "farmdrop.png",
-        "width": "100",
-        "height": "100"
-      }
-    },
-    "imd": {
-      "title": "IMD Business School",
-      "techUsed": [
-        {
-          "name": "react"
-        },
-        {
-          "name": "angular"
-        },
-        {
-          "name": "nodejs"
-        },
-        {
-          "name": "dotnet"
-        }
-      ],
-      "logo": {
-        "image": "imd.png",
-        "width": "100",
-        "height": "80"
-      }
-    },
-    "broadband-choices": {
-      "title": "Broadband Choices",
-      "techUsed": [
-        {
-          "name": "javascript"
-        },
-        {
-          "name": "tensorflow"
-        }
-      ],
-      "logo": {
-        "image": "broadband-choices.png",
-        "width": "100",
-        "height": "33"
-      }
-    },
-    "euromoney": {
-      "title": "Euromoney",
-      "techUsed": [
-        {
-          "name": "angular"
-        },
-        {
-          "name": "dotnet"
-        }
-      ],
-      "logo": {
-        "image": "euromoney.png",
-        "width": "100",
-        "height": "40"
       }
     },
     "shopa": {
