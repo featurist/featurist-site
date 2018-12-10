@@ -1,9 +1,12 @@
 /** @define Badge; weak */
 
 .Badge-container {
+  background-color: #ededed;
   display: flex;
-  height: 22px;
-  margin-bottom: 10px;
+  height: 37px;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .Badge {
@@ -11,10 +14,6 @@
   width: 44px;
 
   svg {
-    transition: 100ms ease-in;
-
-    &:not(:hover) {
-      filter: grayscale(100%);
-    }
+    filter: grayscale(100%);
   }
 }
