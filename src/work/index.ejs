@@ -11,10 +11,11 @@
   <ul class="MediaHeroList">
     <% for (var slug in public.work._data.clients) {
       var caseStudy = public.work._data.clients[slug]
+      var caseStudyUrl = slug + '/'
     %>
       <li class="MediaHeroList-item">
         <figure class="MediaHero">
-          <a href="<%= slug %>">
+          <a href="<%= caseStudyUrl %>">
             <div class="MediaHero-imageWrap">
               <img class="MediaHero-image"
                    src="../images/client-logos/<%= caseStudy.logo.image %>"
