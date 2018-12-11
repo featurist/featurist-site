@@ -1,19 +1,18 @@
-/** @define Badge; weak */
+/** @define Badges */
 
-.Badge-container {
+.Badges {
   background-color: #ededed;
   display: flex;
-  height: 37px;
   justify-content: center;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: @padding-bottom;
 }
 
-.Badge {
-  margin-left: 10px;
-  width: 44px;
+.Badges-item {
+  size: 54px 17px;
 
-  svg {
+  .Badges-itemIcon {
     filter: grayscale(100%);
+    size: 100%;
   }
 }

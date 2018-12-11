@@ -24,9 +24,13 @@
 }
 
 .MediaHeroList-item {
+  border-bottom: 1px solid var(--MediaHero-border-light);
+  border-top: @border-bottom;
   margin-bottom: 20px;
 
   @media (--md-viewport-min) {
+    border-left: 1px solid var(--MediaHero-border-light);
+    border-right: @border-left;
     margin-bottom: 0;
   }
 }

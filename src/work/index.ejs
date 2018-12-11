@@ -24,14 +24,14 @@
             </div>
             <figcaption class="MediaHero-title"><%= caseStudy.title %></figcaption>
           </a>
-          <div class="Badge-container">
-            <% for (var tech of caseStudy.techUsed) { %>
-              <div class="Badge" title="<%= tech.name %>">
-                <svg width="100%" height="100%"><use xlink:href="#i-<%= tech.name %>" /></svg>
-              </div>
-            <% } %>
-          </div>
         </figure>
+        <div class="Badges">
+          <% for (var tech of caseStudy.techUsed) { %>
+            <div class="Badges-item" title="<%= tech.name %>">
+              <svg class="Badges-itemIcon Icon"><use xlink:href="#i-<%= tech.name %>" /></svg>
+            </div>
+          <% } %>
+        </div>
       </li>
     <% } %>
   </ul>
