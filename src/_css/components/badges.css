@@ -1,7 +1,8 @@
 /** @define Badges */
 
 .Badges {
-  background-color: #ededed;
+  background-color: #fafafa;
+  box-shadow: inset 0 10px 20px -10px rgba(10, 10, 10, 0.075);
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
@@ -13,6 +14,7 @@
 
   .Badges-itemIcon {
     filter: grayscale(100%);
+    opacity: 0.5;
     size: 100%;
   }
 }
