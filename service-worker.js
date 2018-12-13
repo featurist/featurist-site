@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.3.js');
 const fileManifest = [
   {
     "url": "404.html",
-    "revision": "63143a418b16db2edec840dea82df3b4"
+    "revision": "373bb5b69bf07dad3902016bf125a88d"
   },
   {
     "url": "about/images/featurist-team.jpg",
@@ -28,7 +28,7 @@ const fileManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "259c6c570b24f8a6d9638ad633d9caa1"
+    "revision": "932de5aae4ffbb3675f1723a92d761bc"
   },
   {
     "url": "careers/images/featurists-discussing.jpg",
@@ -36,11 +36,11 @@ const fileManifest = [
   },
   {
     "url": "careers/index.html",
-    "revision": "22f8fc79187930f21ee0c9606f44988b"
+    "revision": "a3f22fcea88c91475b7b8a978eb2194a"
   },
   {
     "url": "contact/index.html",
-    "revision": "af6d649293dec3747a253b528eb77980"
+    "revision": "34b817bd239761c0f51bf3e23a0bb747"
   },
   {
     "url": "images/client-logos/7digital.png",
@@ -188,7 +188,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "965cc459569b49c59d648c11ef88a6d7"
+    "revision": "d0c4d2b6e693306c2b71f00e69ebfda4"
   },
   {
     "url": "js/main.js",
@@ -200,11 +200,11 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "207693a97bf4cc4d7a479c5c4b51e67d"
+    "revision": "02dcc5f3cb353cecc4acfde8fbc93a70"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "b3f6ed95c77d2c78c652d53261a98f04"
+    "revision": "ad9aaa2cf4691e9e331dcd726cc8444e"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -212,11 +212,11 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "913c906ec406a4b2aa6bb5cb6a6cb3fa"
+    "revision": "19d4a14a40a6f264ba2cb688c9e5b5d5"
   },
   {
     "url": "learn/index.html",
-    "revision": "e542a4d23772011e4e2257abd637ab41"
+    "revision": "6d540425bad0f9060521bb378ead35e8"
   },
   {
     "url": "projects/browser-monkey/images/monkey.png",
@@ -228,27 +228,27 @@ const fileManifest = [
   },
   {
     "url": "projects/browser-monkey/index.html",
-    "revision": "c9deed84385b3efb05045c9ad6c076f0"
+    "revision": "dac18be25fafc32df034d4e05dba911e"
   },
   {
     "url": "projects/coypu/index.html",
-    "revision": "c2bce7f0069bf9df16fbfbb9e8f46cd6"
+    "revision": "89878fe3acd42d1a8dd0b5358506aefa"
   },
   {
     "url": "projects/cucumber-electron/index.html",
-    "revision": "ab210cdc1a8363b44ad6b8af5e47a749"
+    "revision": "ec01a4ffa914080b9cb0d771fca2a79d"
   },
   {
     "url": "projects/httpism/index.html",
-    "revision": "5e441987d74448c387d08679cef12edc"
+    "revision": "3c9236a9a50e01ce8e5ebdfac10a4f13"
   },
   {
     "url": "projects/hyperdom/index.html",
-    "revision": "1322fb437fb390f4c590327584664937"
+    "revision": "3c6ef4ed58c5fca72ad548a85b22156a"
   },
   {
     "url": "projects/index.html",
-    "revision": "c0ef33610e1922f6cfc75d930c23a6b1"
+    "revision": "dda7dc672ed76caf2431870ea5ca71e8"
   },
   {
     "url": "projects/shipping-report/images/shipping-report-logo.png",
@@ -260,19 +260,19 @@ const fileManifest = [
   },
   {
     "url": "projects/shipping-report/index.html",
-    "revision": "d29701d334de3ecd205179e1d3c83dd3"
+    "revision": "1d3f2da63e50d90c226f762c8ed0c737"
   },
   {
     "url": "projects/sworm/index.html",
-    "revision": "b89c0542f0f43e75ecec2474b10c2c3c"
+    "revision": "9735db1175f7b09a375e8adbf1fb85c6"
   },
   {
     "url": "projects/vinehill/index.html",
-    "revision": "198c671b718c91d8eaadb9780a264089"
+    "revision": "0ab96653dabe5711a654ebfc1898d17f"
   },
   {
     "url": "styles.css",
-    "revision": "74cf9ec15c47bc56a735b793e473e124"
+    "revision": "9e2cd9e37207a6b57a2bfdb276cf607d"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
@@ -284,7 +284,7 @@ const fileManifest = [
   },
   {
     "url": "work/7digital/index.html",
-    "revision": "d7e35b42faaf3d7c9c65aa74f0b60ebe"
+    "revision": "2bb2726dbe7392a66e553e172059896a"
   },
   {
     "url": "work/bbc/images/bbc2.png",
@@ -292,7 +292,7 @@ const fileManifest = [
   },
   {
     "url": "work/bbc/index.html",
-    "revision": "7c1c97699045c47414889a800939cad0"
+    "revision": "f9620aaf18d8629cfa49cf931db79e66"
   },
   {
     "url": "work/broadband-choices/images/bc.png",
@@ -304,7 +304,7 @@ const fileManifest = [
   },
   {
     "url": "work/broadband-choices/index.html",
-    "revision": "323f304f8df88c92893eb908e38c7d2a"
+    "revision": "f2f7d385dece2cbe70fd4499742ef080"
   },
   {
     "url": "work/camden/images/camden-lock.jpg",
@@ -316,11 +316,11 @@ const fileManifest = [
   },
   {
     "url": "work/camden/index.html",
-    "revision": "70cf6c39c49604336e7072ff329a2e1e"
+    "revision": "376ab3e658546fff23c137d852455582"
   },
   {
     "url": "work/euromoney/index.html",
-    "revision": "be15fbc5158d06282e6e6d2aede98f5c"
+    "revision": "dc38b7cad07d884c79a00f029e058831"
   },
   {
     "url": "work/farmdrop/images/farm1.png",
@@ -332,15 +332,15 @@ const fileManifest = [
   },
   {
     "url": "work/farmdrop/index.html",
-    "revision": "90ca3059f5759b85e4856514d7517bfa"
+    "revision": "ee69202a11389331aa438c01c33a3f97"
   },
   {
     "url": "work/imd/index.html",
-    "revision": "595c1b5754f2faf484a139a673919da2"
+    "revision": "bb01245596209beb854051c0412b5e5e"
   },
   {
     "url": "work/index.html",
-    "revision": "cec6c5b8ed3b665421a68269a537ab1f"
+    "revision": "a3cf25ba921eb39da298d2c7f66a4783"
   },
   {
     "url": "work/scribeasy/images/classroom.jpg",
@@ -360,7 +360,7 @@ const fileManifest = [
   },
   {
     "url": "work/scribeasy/index.html",
-    "revision": "6294739628943861bc2c385ec0e8e1d0"
+    "revision": "e2a32543ff8af3736e82e20736c05ce0"
   },
   {
     "url": "work/shopa/images/shopa1.png",
@@ -372,7 +372,7 @@ const fileManifest = [
   },
   {
     "url": "work/shopa/index.html",
-    "revision": "a77d2fd01056663f18d3ff755b31bfa4"
+    "revision": "180744066781249313d436e40dacd98e"
   },
   {
     "url": "work/snoozle/images/screenshot.png",
@@ -384,7 +384,7 @@ const fileManifest = [
   },
   {
     "url": "work/snoozle/index.html",
-    "revision": "79fe2471cd6ee7a3d15e2e32efbe4182"
+    "revision": "398f2b44265551ae6549039c64c30592"
   },
   {
     "url": "work/the-pigeonhole/images/book.png",
@@ -396,7 +396,7 @@ const fileManifest = [
   },
   {
     "url": "work/the-pigeonhole/index.html",
-    "revision": "41742398953f7fee19bbc4e1f459f8f1"
+    "revision": "78a235d1ee32448ae5126a3c6efa1e7d"
   },
   {
     "url": "work/travcorp/images/ipad-laptop.jpg",
@@ -412,7 +412,7 @@ const fileManifest = [
   },
   {
     "url": "work/travcorp/index.html",
-    "revision": "b4b77c111d350d03f9fefab46845bb99"
+    "revision": "0698c75db74a8fab912b258b2f2f81df"
   }
 ];
 
