@@ -64,10 +64,16 @@
       "title": "Broadband Choices",
       "techUsed": [
         {
-          "name": "javascript"
+          "name": "python"
         },
         {
           "name": "tensorflow"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "google-cloud-platform"
         }
       ],
       "logo": {
@@ -183,6 +189,9 @@
       "techUsed": [
         {
           "name": "rails"
+        },
+        {
+          "name": "golang"
         }
       ],
       "logo": {
