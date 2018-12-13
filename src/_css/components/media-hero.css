@@ -7,8 +7,7 @@
 
 .MediaHero {
   background-color: #fff;
-  border-bottom: 1px solid var(--MediaHero-border-light);
-  border-top: @border-bottom;
+  position: relative;
   text-align: center;
   transition: background-color var(--transition-duration) ease-in-out;
 
@@ -18,7 +17,6 @@
 
   a {
     display: block;
-    height: 100%;
     padding: 30px 20px;
     text-decoration: none;
 
@@ -28,8 +26,6 @@
   }
 
   @media (--md-viewport-min) {
-    border-left: 1px solid var(--MediaHero-border-light);
-    border-right: @border-left;
     height: 100%;
   }
 }
@@ -38,6 +34,7 @@
   margin-bottom: 10px;
 
   @media (--md-viewport-min) {
+    height: 100px;
     line-height: 100px;
   }
 }

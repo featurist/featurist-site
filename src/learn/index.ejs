@@ -11,10 +11,11 @@
   <ul class="MediaHeroList">
     <% for (var slug in public.learn._data.events) {
       var event = public.learn._data.events[slug]
+      var eventUrl = slug + '/'
     %>
       <li class="MediaHeroList-item">
         <div class="MediaHero">
-          <a href="<%= slug %>/">
+          <a href="<%= eventUrl %>">
             <h3 class="MediaHero-title"><%= event.title %></h3>
             <p class="MediaHero-description">
               <time datetime="<%= event.date %>"><%= new Date(event.date).toDateString() %></time>

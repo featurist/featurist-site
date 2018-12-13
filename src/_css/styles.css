@@ -8,6 +8,7 @@
 @import "base/forms";
 @import "base/scroll-effects";
 @import "components/alert";
+@import "components/badges";
 @import "components/body-text";
 @import "components/button";
 @import "components/client-logo-list";

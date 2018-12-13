@@ -11,10 +11,11 @@
   <ul class="MediaHeroList">
     <% for (var slug in public.projects._data.projects) {
       var project = public.projects._data.projects[slug]
+      var projectUrl = slug + '/'
     %>
       <li class="MediaHeroList-item">
         <figure class="MediaHero MediaHero--inverted">
-          <a href="<%= slug %>/">
+          <a href="<%= projectUrl %>">
             <% if (project.logo) { %>
               <div class="MediaHero-imageWrap">
                 <img class="MediaHero-image"

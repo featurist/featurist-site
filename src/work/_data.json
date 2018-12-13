@@ -12,72 +12,70 @@
     }
   },
   "clients": {
-    "snoozle": {
-      "title": "Snoozle",
-      "logo": {
-        "image": "snoozle.png",
-        "width": "100",
-        "height": "77"
-      }
-    },
-    "camden": {
-      "title": "London Borough of Camden",
-      "logo": {
-        "image": "camden.png",
-        "width": "100",
-        "height": "77"
-      }
-    },
-    "bbc": {
-      "title": "BBC",
-      "logo": {
-        "image": "bbc.png",
-        "width": "100",
-        "height": "28"
-      }
-    },
     "travcorp": {
       "title": "The Travel Corporation",
+      "techUsed": [
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "kubernetes"
+        },
+        {
+          "name": "aws"
+        }
+      ],
       "logo": {
         "image": "travcorp.png",
         "width": "100",
         "height": "101"
       }
     },
-    "scribeasy": {
-      "title": "Scribeasy",
-      "logo": {
-        "image": "scribeasy.png",
-        "width": "100",
-        "height": "102"
-      }
-    },
-    "the-pigeonhole": {
-      "title": "The Pigeonhole",
-      "logo": {
-        "image": "the-pigeonhole.png",
-        "width": "100",
-        "height": "23"
-      }
-    },
     "farmdrop": {
       "title": "Farmdrop",
+      "techUsed": [
+        {
+          "name": "ios"
+        }
+      ],
       "logo": {
         "image": "farmdrop.png",
         "width": "100",
         "height": "100"
       }
     },
-    "imd": {
-      "title": "IMD Business School",
+    "bbc": {
+      "title": "BBC",
+      "techUsed": [
+        {
+          "name": "javascript"
+        }
+      ],
       "logo": {
-        "image": "imd.png",
+        "image": "bbc.png",
         "width": "100",
-        "height": "80"
+        "height": "28"
       }
     },
     "broadband-choices": {
       "title": "Broadband Choices",
+      "techUsed": [
+        {
+          "name": "python"
+        },
+        {
+          "name": "tensorflow"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "google-cloud-platform"
+        }
+      ],
       "logo": {
         "image": "broadband-choices.png",
         "width": "100",
@@ -86,14 +84,116 @@
     },
     "euromoney": {
       "title": "Euromoney",
+      "techUsed": [
+        {
+          "name": "angular"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
       "logo": {
         "image": "euromoney.png",
         "width": "100",
         "height": "40"
       }
     },
+    "camden": {
+      "title": "London Borough of Camden",
+      "techUsed": [
+        {
+          "name": "java"
+        }
+      ],
+      "logo": {
+        "image": "camden.png",
+        "width": "100",
+        "height": "77"
+      }
+    },
+    "imd": {
+      "title": "IMD Business School",
+      "techUsed": [
+        {
+          "name": "react"
+        },
+        {
+          "name": "angular"
+        },
+        {
+          "name": "nodejs"
+        },
+        {
+          "name": "dotnet"
+        }
+      ],
+      "logo": {
+        "image": "imd.png",
+        "width": "100",
+        "height": "80"
+      }
+    },
+    "snoozle": {
+      "title": "Snoozle",
+      "techUsed": [
+        {
+          "name": "ios"
+        }
+      ],
+      "logo": {
+        "image": "snoozle.png",
+        "width": "100",
+        "height": "77"
+      }
+    },
+    "scribeasy": {
+      "title": "Scribeasy",
+      "techUsed": [
+        {
+          "name": "ios"
+        },
+        {
+          "name": "rails"
+        },
+        {
+          "name": "javascript"
+        },
+        {
+          "name": "nodejs"
+        }
+      ],
+      "logo": {
+        "image": "scribeasy.png",
+        "width": "100",
+        "height": "102"
+      }
+    },
+    "the-pigeonhole": {
+      "title": "The Pigeonhole",
+      "techUsed": [
+        {
+          "name": "ios"
+        },
+        {
+          "name": "rails"
+        }
+      ],
+      "logo": {
+        "image": "the-pigeonhole.png",
+        "width": "100",
+        "height": "23"
+      }
+    },
     "shopa": {
       "title": "Shopa",
+      "techUsed": [
+        {
+          "name": "rails"
+        },
+        {
+          "name": "golang"
+        }
+      ],
       "logo": {
         "image": "shopa.png",
         "width": "100",
@@ -102,6 +202,11 @@
     },
     "7digital": {
       "title": "7digital",
+      "techUsed": [
+        {
+          "name": "dotnet"
+        }
+      ],
       "logo": {
         "image": "7digital.png",
         "width": "100",
