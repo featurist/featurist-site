@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.3.js');
 const fileManifest = [
   {
     "url": "404.html",
-    "revision": "373bb5b69bf07dad3902016bf125a88d"
+    "revision": "51e8b7d38c8e531788f194cc2e1549b3"
   },
   {
     "url": "about/images/featurist-team.jpg",
@@ -28,7 +28,7 @@ const fileManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "932de5aae4ffbb3675f1723a92d761bc"
+    "revision": "f23589b76fafa27dbaf28da9a0ab2156"
   },
   {
     "url": "careers/images/featurists-discussing.jpg",
@@ -36,11 +36,11 @@ const fileManifest = [
   },
   {
     "url": "careers/index.html",
-    "revision": "a3f22fcea88c91475b7b8a978eb2194a"
+    "revision": "69ec3a99d2e06159972f36b9efbdb59a"
   },
   {
     "url": "contact/index.html",
-    "revision": "34b817bd239761c0f51bf3e23a0bb747"
+    "revision": "f12ce12963d89deca8f870482ed492e2"
   },
   {
     "url": "images/client-logos/7digital.png",
@@ -188,7 +188,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d0c4d2b6e693306c2b71f00e69ebfda4"
+    "revision": "75695bd674ae1de4dc2f632db50d3dc9"
   },
   {
     "url": "js/main.js",
@@ -200,11 +200,11 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "02dcc5f3cb353cecc4acfde8fbc93a70"
+    "revision": "9b056f8727a9aafbac2a63518c456504"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "ad9aaa2cf4691e9e331dcd726cc8444e"
+    "revision": "b55bdff2f37acf32ab2e06580e7d27a6"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -212,11 +212,11 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "19d4a14a40a6f264ba2cb688c9e5b5d5"
+    "revision": "e5e5bd8809309acfe75d0a825e499006"
   },
   {
     "url": "learn/index.html",
-    "revision": "6d540425bad0f9060521bb378ead35e8"
+    "revision": "5ac737d8195d55da8a261ade1ba048a3"
   },
   {
     "url": "projects/browser-monkey/images/monkey.png",
@@ -228,27 +228,27 @@ const fileManifest = [
   },
   {
     "url": "projects/browser-monkey/index.html",
-    "revision": "dac18be25fafc32df034d4e05dba911e"
+    "revision": "62f724e2674313e8973e084674175d7f"
   },
   {
     "url": "projects/coypu/index.html",
-    "revision": "89878fe3acd42d1a8dd0b5358506aefa"
+    "revision": "b5a07e8b519dd1428d42657401990c41"
   },
   {
     "url": "projects/cucumber-electron/index.html",
-    "revision": "ec01a4ffa914080b9cb0d771fca2a79d"
+    "revision": "8109113c53eed60e8e1856f312a44a61"
   },
   {
     "url": "projects/httpism/index.html",
-    "revision": "3c9236a9a50e01ce8e5ebdfac10a4f13"
+    "revision": "1febf2c38eb8cc6ccdf6e03a193f702b"
   },
   {
     "url": "projects/hyperdom/index.html",
-    "revision": "3c6ef4ed58c5fca72ad548a85b22156a"
+    "revision": "1ee395682c1a83219ead4c3e3d9e7b25"
   },
   {
     "url": "projects/index.html",
-    "revision": "dda7dc672ed76caf2431870ea5ca71e8"
+    "revision": "721ac3487cdd57565d8821424f056e8a"
   },
   {
     "url": "projects/shipping-report/images/shipping-report-logo.png",
@@ -260,15 +260,15 @@ const fileManifest = [
   },
   {
     "url": "projects/shipping-report/index.html",
-    "revision": "1d3f2da63e50d90c226f762c8ed0c737"
+    "revision": "bee8bf6b9ead6fae0a96f503c79752c0"
   },
   {
     "url": "projects/sworm/index.html",
-    "revision": "9735db1175f7b09a375e8adbf1fb85c6"
+    "revision": "a984875a9c13be86002cbf0aaf7993a8"
   },
   {
     "url": "projects/vinehill/index.html",
-    "revision": "0ab96653dabe5711a654ebfc1898d17f"
+    "revision": "c15d3b08a462fc4a2c277f1ed10cbf02"
   },
   {
     "url": "styles.css",
@@ -284,7 +284,7 @@ const fileManifest = [
   },
   {
     "url": "work/7digital/index.html",
-    "revision": "2bb2726dbe7392a66e553e172059896a"
+    "revision": "52aabc274eb6132bf5f2205fbf7260c4"
   },
   {
     "url": "work/bbc/images/bbc2.png",
@@ -292,7 +292,7 @@ const fileManifest = [
   },
   {
     "url": "work/bbc/index.html",
-    "revision": "f9620aaf18d8629cfa49cf931db79e66"
+    "revision": "d983dcef065584a0291df5915f1bd061"
   },
   {
     "url": "work/broadband-choices/images/bc.png",
@@ -304,7 +304,7 @@ const fileManifest = [
   },
   {
     "url": "work/broadband-choices/index.html",
-    "revision": "f2f7d385dece2cbe70fd4499742ef080"
+    "revision": "44d268d24074db4ccdcdc0786395419a"
   },
   {
     "url": "work/camden/images/camden-lock.jpg",
@@ -316,11 +316,11 @@ const fileManifest = [
   },
   {
     "url": "work/camden/index.html",
-    "revision": "376ab3e658546fff23c137d852455582"
+    "revision": "4dd36b8e2ec6d5f4853d5e1d410c6d60"
   },
   {
     "url": "work/euromoney/index.html",
-    "revision": "dc38b7cad07d884c79a00f029e058831"
+    "revision": "f19e02831315b1b576489eccb465acd1"
   },
   {
     "url": "work/farmdrop/images/farm1.png",
@@ -332,15 +332,15 @@ const fileManifest = [
   },
   {
     "url": "work/farmdrop/index.html",
-    "revision": "ee69202a11389331aa438c01c33a3f97"
+    "revision": "83b54ef871793b080ba5fe1a380186b8"
   },
   {
     "url": "work/imd/index.html",
-    "revision": "bb01245596209beb854051c0412b5e5e"
+    "revision": "5d6b7a51bbf0bba38736eb8b35f7308d"
   },
   {
     "url": "work/index.html",
-    "revision": "a3cf25ba921eb39da298d2c7f66a4783"
+    "revision": "38574e47ca0d2af87e97d4bed23b0915"
   },
   {
     "url": "work/scribeasy/images/classroom.jpg",
@@ -360,7 +360,7 @@ const fileManifest = [
   },
   {
     "url": "work/scribeasy/index.html",
-    "revision": "e2a32543ff8af3736e82e20736c05ce0"
+    "revision": "5b287b77d3580ee45c6db5c65b97413b"
   },
   {
     "url": "work/shopa/images/shopa1.png",
@@ -372,7 +372,7 @@ const fileManifest = [
   },
   {
     "url": "work/shopa/index.html",
-    "revision": "180744066781249313d436e40dacd98e"
+    "revision": "cb2178b62b7b3a423331c9a1bc8ee89b"
   },
   {
     "url": "work/snoozle/images/screenshot.png",
@@ -384,7 +384,7 @@ const fileManifest = [
   },
   {
     "url": "work/snoozle/index.html",
-    "revision": "398f2b44265551ae6549039c64c30592"
+    "revision": "43f05ac1b1b4b0339e0b092148a55dce"
   },
   {
     "url": "work/the-pigeonhole/images/book.png",
@@ -396,7 +396,7 @@ const fileManifest = [
   },
   {
     "url": "work/the-pigeonhole/index.html",
-    "revision": "78a235d1ee32448ae5126a3c6efa1e7d"
+    "revision": "4fc4cebfa337d9957adecfb6b2d0f464"
   },
   {
     "url": "work/travcorp/images/ipad-laptop.jpg",
@@ -412,7 +412,7 @@ const fileManifest = [
   },
   {
     "url": "work/travcorp/index.html",
-    "revision": "0698c75db74a8fab912b258b2f2f81df"
+    "revision": "96b8490c7c544b87f201ffe6691abdf9"
   }
 ];
 
