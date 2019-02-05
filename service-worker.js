@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.1.2.js');
+importScripts('workbox-sw.prod.v2.1.3.js');
 
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
@@ -192,19 +192,19 @@ const fileManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "b3cbd8b04f92056ffe5528a2c5d05dd5"
+    "revision": "5e0923e0cee9337ac8cdefaed4680f69"
   },
   {
     "url": "js/plugins.js",
-    "revision": "7592ccee3f3ed2202beb041dbb0461ba"
+    "revision": "fc9adf0b06692f5a591d9f51efd4cfc0"
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "5e0e9f917405cf99a44db486bca5c2fd"
+    "revision": "9b056f8727a9aafbac2a63518c456504"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "ce3fc6395efcd8f0fdca908b99db4421"
+    "revision": "b55bdff2f37acf32ab2e06580e7d27a6"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -212,11 +212,19 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "030692ef67ded67eb0a87417bf5d6176"
+    "revision": "e5e5bd8809309acfe75d0a825e499006"
   },
   {
     "url": "learn/index.html",
-    "revision": "5ac737d8195d55da8a261ade1ba048a3"
+    "revision": "c93756b28d871df8fd6eb07584b366df"
+  },
+  {
+    "url": "learn/test-commit-revert/images/josh.jpg",
+    "revision": "5cd61a149e659c4f2af144f5cfffa037"
+  },
+  {
+    "url": "learn/test-commit-revert/index.html",
+    "revision": "ad46240b133623beb21c8f0389efcbba"
   },
   {
     "url": "projects/browser-monkey/images/monkey.png",
@@ -228,23 +236,23 @@ const fileManifest = [
   },
   {
     "url": "projects/browser-monkey/index.html",
-    "revision": "c46f3b55bfba0d80e5922f4daec7a2f8"
+    "revision": "62f724e2674313e8973e084674175d7f"
   },
   {
     "url": "projects/coypu/index.html",
-    "revision": "7a8edbdade7217a16ae000cceb979117"
+    "revision": "b5a07e8b519dd1428d42657401990c41"
   },
   {
     "url": "projects/cucumber-electron/index.html",
-    "revision": "03bf919c635507311fdba84a9008d486"
+    "revision": "8109113c53eed60e8e1856f312a44a61"
   },
   {
     "url": "projects/httpism/index.html",
-    "revision": "f2086400ae4821f21300bb5cae5db2fb"
+    "revision": "1febf2c38eb8cc6ccdf6e03a193f702b"
   },
   {
     "url": "projects/hyperdom/index.html",
-    "revision": "49daceaa6e20a7ff9c456526780aa8fa"
+    "revision": "1ee395682c1a83219ead4c3e3d9e7b25"
   },
   {
     "url": "projects/index.html",
@@ -260,19 +268,19 @@ const fileManifest = [
   },
   {
     "url": "projects/shipping-report/index.html",
-    "revision": "43a6bdd85c93eeedef5700c15ce1b782"
+    "revision": "bee8bf6b9ead6fae0a96f503c79752c0"
   },
   {
     "url": "projects/sworm/index.html",
-    "revision": "f2a9890a4edb3d003a3143db2e5f9801"
+    "revision": "a984875a9c13be86002cbf0aaf7993a8"
   },
   {
     "url": "projects/vinehill/index.html",
-    "revision": "6576f0520471403417bb4932edc1d079"
+    "revision": "c15d3b08a462fc4a2c277f1ed10cbf02"
   },
   {
     "url": "styles.css",
-    "revision": "6c38f270c04091e6f6059316f0f43512"
+    "revision": "f1d3873ab2ebd0d58ad079c55e033654"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
