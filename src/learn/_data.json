@@ -12,6 +12,10 @@
     }
   },
   "events": {
+    "test-commit-revert": {
+      "title": "test && commit || revert (TCR) workshop",
+      "date": "2019-02-06"
+    },
     "full-stack-testing": {
       "title": "Full-stack testing that doesn't suck",
       "date": "2017-03-22"

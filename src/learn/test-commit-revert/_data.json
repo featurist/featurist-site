@@ -1,0 +1,12 @@
+{
+  "index": {
+    "title": "test && commit || revert (TCR) workshop",
+    "tagline": "Learn - Featurist",
+    "description":
+      "Presented on Wed Feb 06 2019 by Josh Chisholm @Metal Box Factory",
+    "openGraph": {
+      "title": "Learn: test && commit || revert (TCR) workshop",
+      "description": "Presented on Wed Feb 06 2019 by Josh Chisholm"
+    }
+  }
+}
