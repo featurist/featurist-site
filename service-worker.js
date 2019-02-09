@@ -28,7 +28,7 @@ const fileManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "f23589b76fafa27dbaf28da9a0ab2156"
+    "revision": "c3c20bd2621ebe27db9178dc7605ff84"
   },
   {
     "url": "careers/images/featurists-discussing.jpg",
@@ -196,15 +196,15 @@ const fileManifest = [
   },
   {
     "url": "js/plugins.js",
-    "revision": "fc9adf0b06692f5a591d9f51efd4cfc0"
+    "revision": "497e30214c60d977c8a80fde2068cde7"
   },
   {
     "url": "learn/full-stack-apps/index.html",
-    "revision": "9b056f8727a9aafbac2a63518c456504"
+    "revision": "fd25489c94cca78b9d0fa8f03118d095"
   },
   {
     "url": "learn/full-stack-bdd/index.html",
-    "revision": "b55bdff2f37acf32ab2e06580e7d27a6"
+    "revision": "1933b96d160416c1f0c1a27921b296fb"
   },
   {
     "url": "learn/full-stack-testing/images/artemave-fullstack-testing.jpg",
@@ -212,7 +212,7 @@ const fileManifest = [
   },
   {
     "url": "learn/full-stack-testing/index.html",
-    "revision": "e5e5bd8809309acfe75d0a825e499006"
+    "revision": "7c983bd6b5958fde0bc565cd9fa62e4e"
   },
   {
     "url": "learn/index.html",
@@ -224,7 +224,7 @@ const fileManifest = [
   },
   {
     "url": "learn/test-commit-revert/index.html",
-    "revision": "ad46240b133623beb21c8f0389efcbba"
+    "revision": "3ffddad4f2bf04bcde073d7005dc2ed5"
   },
   {
     "url": "projects/browser-monkey/images/monkey.png",
@@ -240,15 +240,15 @@ const fileManifest = [
   },
   {
     "url": "projects/coypu/index.html",
-    "revision": "b5a07e8b519dd1428d42657401990c41"
+    "revision": "f1c7ae8b632b4da951b1ee06a8b66288"
   },
   {
     "url": "projects/cucumber-electron/index.html",
-    "revision": "8109113c53eed60e8e1856f312a44a61"
+    "revision": "928080d0f734760137cda4c89703ec7c"
   },
   {
     "url": "projects/httpism/index.html",
-    "revision": "1febf2c38eb8cc6ccdf6e03a193f702b"
+    "revision": "64b19ded93db1c1ae6f7a6f7cd5deb3f"
   },
   {
     "url": "projects/hyperdom/index.html",
@@ -268,19 +268,19 @@ const fileManifest = [
   },
   {
     "url": "projects/shipping-report/index.html",
-    "revision": "bee8bf6b9ead6fae0a96f503c79752c0"
+    "revision": "c16f64f172c30a05dbc81ccacd2b37c2"
   },
   {
     "url": "projects/sworm/index.html",
-    "revision": "a984875a9c13be86002cbf0aaf7993a8"
+    "revision": "f02d9749e5c77df53f32ad874f311553"
   },
   {
     "url": "projects/vinehill/index.html",
-    "revision": "c15d3b08a462fc4a2c277f1ed10cbf02"
+    "revision": "548acd79bdf37fba994184add8a3090c"
   },
   {
     "url": "styles.css",
-    "revision": "f1d3873ab2ebd0d58ad079c55e033654"
+    "revision": "9e2cd9e37207a6b57a2bfdb276cf607d"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
