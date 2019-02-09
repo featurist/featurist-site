@@ -5,8 +5,7 @@
     "description": "Get in touch to discuss your project.",
     "openGraph": {
       "title": "Contact Featurist Today",
-      "description": "Get in touch to discuss how we can help your company.",
-      "image": "https://www.featurist.co.uk/images/tile.png"
+      "description": "Get in touch to discuss how we can help your company."
     }
   }
 }

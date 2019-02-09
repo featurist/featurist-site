@@ -5,8 +5,7 @@
     "description": "Learn about our development process and beliefs.",
     "openGraph": {
       "title": "About Featurist",
-      "description": "Learn about our development process and beliefs.",
-      "image": "https://www.featurist.co.uk/images/tile.png"
+      "description": "Learn about our development process and beliefs."
     }
   }
 }

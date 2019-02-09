@@ -1,9 +1,9 @@
 <meta name="description" content="<%= description %>">
 
 <meta property="og:site_name" content="Featurist">
-<meta property="og:title" content="<%= openGraph.title %>">
-<meta property="og:description" content="<%= openGraph.description %>">
-<meta property="og:image" content="<%= openGraph.image %>">
+<meta property="og:title" content="<%= openGraph.title || public._data.openGraph.title %>">
+<meta property="og:description" content="<%= openGraph.description || public._data.openGraph.description %>">
+<meta property="og:image" content="<%= openGraph.image || public._data.openGraph.image %>">
 <meta property="og:url" content="">
 <meta property="og:locale" content="en_GB">
 <meta property="og:type" content="website">
