@@ -1,23 +1,24 @@
-importScripts('workbox-sw.prod.v2.1.3.js');
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 /**
- * DO NOT EDIT THE FILE MANIFEST ENTRY
- *
- * The method precache() does the following:
- * 1. Cache URLs in the manifest to a local cache.
- * 2. When a network request is made for any of these URLs the response
- *    will ALWAYS comes from the cache, NEVER the network.
- * 3. When the service worker changes ONLY assets with a revision change are
- *    updated, old cache entries are left as is.
- *
- * By changing the file manifest manually, your users may end up not receiving
- * new versions of files because the revision hasn't changed.
- *
- * Please use workbox-build or some other tool / approach to generate the file
- * manifest which accounts for changes to local files and update the revision
- * accordingly.
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
  */
-const fileManifest = [
+self.__precacheManifest = [
   {
     "url": "404.html",
     "revision": "51e8b7d38c8e531788f194cc2e1549b3"
@@ -140,7 +141,7 @@ const fileManifest = [
   },
   {
     "url": "images/team-avatars/adrian.jpg",
-    "revision": "7524d51bd0b1d2da7c86414dfd835a27"
+    "revision": "4b8ee184b01156b6eba7d5d8d899025d"
   },
   {
     "url": "images/team-avatars/alec.jpg",
@@ -196,7 +197,7 @@ const fileManifest = [
   },
   {
     "url": "js/plugins.js",
-    "revision": "497e30214c60d977c8a80fde2068cde7"
+    "revision": "32943afa2940bd79a5e6f1a577149c93"
   },
   {
     "url": "learn/full-stack-apps/index.html",
@@ -220,7 +221,7 @@ const fileManifest = [
   },
   {
     "url": "learn/test-commit-revert/images/josh.jpg",
-    "revision": "5cd61a149e659c4f2af144f5cfffa037"
+    "revision": "9bb6be37db5e045c578a1befaa0a868f"
   },
   {
     "url": "learn/test-commit-revert/index.html",
@@ -280,7 +281,7 @@ const fileManifest = [
   },
   {
     "url": "styles.css",
-    "revision": "9e2cd9e37207a6b57a2bfdb276cf607d"
+    "revision": "4cb58f1c5e187d223e653e043600d56d"
   },
   {
     "url": "work/7digital/images/7digital-800x445.jpg",
@@ -422,7 +423,6 @@ const fileManifest = [
     "url": "work/travcorp/index.html",
     "revision": "66044ede79901bee57f559743907dab8"
   }
-];
-
-const workboxSW = new self.WorkboxSW();
-workboxSW.precache(fileManifest);
+].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
